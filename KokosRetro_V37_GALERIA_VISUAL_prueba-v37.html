@@ -1,0 +1,1338 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kokos Retro | Catálogo</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap');:root{--navy:#05254a;--blue:#0067f5;--yellow:#ffc400;--ink:#071d35}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:14px Inter,Arial,sans-serif;background:#f3f5f8}button,input,textarea,select{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.shell{max-width:1120px;margin:auto;min-height:100vh;background:#fff}.top{background:var(--navy);color:white;padding:16px 22px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;position:sticky;top:0;z-index:8}.logo{font:23px/.85 'Archivo Black',Impact,sans-serif;letter-spacing:-1.5px;cursor:pointer}.top nav{display:flex;gap:23px;align-items:center;justify-self:start}.top>.logo{justify-self:center}.top-socials{display:flex;align-items:center;gap:9px;justify-self:end;margin:0}.socials{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.social-icon{width:34px;height:34px;border-radius:50%;display:inline-grid;place-items:center;border:1px solid #ffffff55;color:white;background:#ffffff12;transition:.18s}.social-icon:hover{background:#fff;color:var(--navy);transform:translateY(-1px)}.social-icon svg{width:18px;height:18px;fill:currentColor}.mobile-socials{display:none;padding-top:12px;border-top:1px solid #ffffff2e;margin-top:4px}.top nav button,.hamb{border:0;background:none;color:white;font-weight:800}.hamb{display:none;font-size:25px}.hero{background:linear-gradient(110deg,#031528,#102d50 65%,#315f91);color:white;padding:56px 6%;position:relative;overflow:hidden}.hero:after{display:none!important}.hero h1{font:clamp(35px,6vw,76px)/.99 'Archivo Black';letter-spacing:-2px;max-width:720px;margin:0 0 18px}.hero em{color:var(--yellow);font-style:normal}.hero p{max-width:480px;line-height:1.6}.btn{border:0;background:var(--yellow);color:#071b32;font-weight:900;padding:14px 19px;border-radius:7px;display:inline-flex;align-items:center;gap:8px}.btn.blue{background:var(--blue);color:#fff}.btn.green{background:#04b85a;color:#fff}.btn.outline{background:white;border:1px solid #cad2df}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.content{padding:28px 5% 55px}.heading{font:clamp(24px,4vw,38px)/1.07 'Archivo Black';margin:8px 0 15px}.sub{color:#526177;line-height:1.6}.page-back{border:0;background:transparent;color:var(--ink);font-weight:800;padding:0;margin:0 0 18px;display:inline-flex;align-items:center;gap:7px}.page-back:hover{text-decoration:underline}.crumb{font-size:12px;color:#5e6b7d;margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.tile{border:0;text-align:left;background:#0a2545;color:#fff;position:relative;overflow:hidden;border-radius:9px;min-height:235px;padding:0;display:flex;align-items:flex-end}.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .2s}.tile:hover img{transform:scale(1.04)}.tile:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.91))}.tile .info{z-index:1;padding:13px;width:100%}.tile strong{font:19px/1.04 'Archivo Black';display:block;text-transform:uppercase}.tile small{display:block;margin-top:5px}.arrow{position:absolute;right:12px;bottom:12px;background:var(--yellow);color:black;border-radius:50%;width:27px;height:27px;display:grid;place-items:center;font-weight:900}.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature{min-height:230px}.size-row{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.size{min-width:49px;padding:12px;border:1px solid #d3dae3;background:#f8fafc;border-radius:6px;font-weight:800}.size.active{background:var(--yellow);border-color:var(--yellow)}.size:disabled{text-decoration:line-through;color:#9aa4b1;cursor:not-allowed;background:#eee}.guide{border:1px solid #dce2ea;border-radius:8px;padding:12px 15px;display:flex;justify-content:space-between;align-items:center;margin:12px 0;background:#f8fafc}.product{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:35px}.main-photo{touch-action:pan-y;user-select:none;-webkit-user-select:none;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:10px;background:#e9eef3;cursor:zoom-in}.thumbs{display:flex;gap:9px;overflow-x:auto;padding:12px 0}.thumbs button{padding:0;border:3px solid transparent;border-radius:7px;flex:0 0 76px;height:75px;overflow:hidden}.thumbs button.selected{border-color:var(--yellow)}.thumbs img{width:100%;height:100%;object-fit:cover}.price{font:31px 'Archivo Black';color:var(--blue);margin:6px 0}.details{line-height:1.65}.notice{background:#f0f4f9;padding:15px;border-radius:9px;line-height:1.6;margin:18px 0}.footer{background:var(--navy);color:white;padding:27px 5%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}.footer-nav{display:flex;gap:20px;justify-self:start}.footer-logo{justify-self:center}.footer-socials{justify-self:end}.footer a{margin-right:0}.modal{position:fixed;inset:0;background:#000c;z-index:30;display:grid;place-items:center;padding:15px}.modal-box{background:white;max-width:680px;width:100%;max-height:92vh;overflow:auto;border-radius:12px;padding:23px}.modal-head{display:flex;align-items:center;justify-content:space-between}.close{background:transparent;border:0;font-size:26px}.modal table{border-collapse:collapse;width:100%;font-size:13px}.modal th,.modal td{padding:11px 6px;border-bottom:1px solid #e3e6eb;text-align:left}.zoom{max-width:95vw;max-height:85vh;object-fit:contain}.admin-layout{display:grid;grid-template-columns:190px 1fr;gap:20px}.admin-nav{display:grid;align-content:start;gap:8px}.admin-nav button{text-align:left;padding:12px;background:#f0f3f7;border:0;border-radius:7px}.admin-nav button.active{background:var(--navy);color:white}.field{display:grid;gap:5px;margin:12px 0}.field input,.field textarea,.field select{width:100%;padding:11px;border:1px solid #cbd5e1;border-radius:6px}.field textarea{min-height:75px}.admin-card{padding:15px;border:1px solid #dfe5ec;border-radius:9px;margin:12px 0}.admin-card h3{margin:0 0 8px}.small{font-size:12px;color:#66768a}.empty{padding:32px;text-align:center;background:#f6f8fa;border-radius:9px}.pill{display:inline-block;background:#e9eef5;padding:7px 11px;border-radius:40px;font-weight:700;margin:4px}.bottomnav{display:none}.section-spacer{margin-top:38px}.hscroll{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 12px;scrollbar-width:thin}.hscroll>.tile{flex:0 0 min(330px,78vw);scroll-snap-align:start}.collab{flex:0 0 min(390px,84vw);scroll-snap-align:start;border-radius:10px;overflow:hidden;background:#081f3c;color:white;position:relative;min-height:280px}.collab img{width:100%;height:280px;object-fit:cover;display:block}.collab span{position:absolute;left:0;right:0;bottom:0;padding:38px 16px 15px;background:linear-gradient(transparent,rgba(0,0,0,.9));font:18px Archivo Black}.catalog-preview{margin-top:16px}.accessory-cover{width:100%;min-height:230px}#app{min-height:75vh}@media(max-width:700px){.top{padding:14px 18px;display:flex;justify-content:space-between}.top>.logo{justify-self:auto}.top-socials{display:none}.top nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--navy);padding:15px;flex-direction:column;align-items:stretch}.top nav.open{display:flex}.top nav button{text-align:left;padding:10px}.mobile-socials{display:flex}.hamb{display:block}.hero{padding:45px 6%}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tile{min-height:180px}.tile strong{font-size:15px}.split,.product,.admin-layout{grid-template-columns:1fr}.feature{min-height:205px}.content{padding:23px 4% 75px}.bottomnav{display:flex;position:sticky;bottom:0;background:var(--navy);color:#fff;justify-content:space-around;padding:12px 0;z-index:9}.bottomnav button{background:none;color:white;border:0;font-size:11px;font-weight:700}.footer{padding-bottom:28px;display:flex;flex-direction:column;align-items:flex-start}.footer-logo{order:0}.footer-nav{order:1}.footer-socials{order:2}.admin-layout{gap:10px}.admin-nav{display:flex;overflow-x:auto}.admin-nav button{white-space:nowrap}}
+
+/* Mobile-first refinement — desktop rules above remain unchanged */
+@media(max-width:700px){
+  body{background:#fff}
+  .shell{width:100%;max-width:none}
+  .top{min-height:66px;padding:12px 16px;position:sticky;display:flex;align-items:center;justify-content:space-between}
+  .top>.logo{font-size:21px;line-height:.84;order:0}
+  .hamb{display:block;order:2;width:42px;height:42px;padding:0;border:1px solid #ffffff3b;border-radius:50%;line-height:1}
+  .top nav{display:none;position:absolute;top:100%;left:0;right:0;padding:12px 16px 18px;background:var(--navy);box-shadow:0 12px 22px #00152d33;gap:2px}
+  .top nav.open{display:flex}
+  .top nav button{font-size:15px;padding:13px 2px;border-bottom:1px solid #ffffff20}
+  .mobile-socials{display:flex!important;padding-top:16px;border-top:0;gap:12px}
+  .top-socials{display:none!important}
+  .bottomnav{display:none!important}
+  .hero{padding:40px 18px 42px;min-height:360px;display:flex;flex-direction:column;justify-content:flex-end}
+  .hero:after{display:none!important}
+  .hero h1{font-size:43px;line-height:.94;letter-spacing:-1.8px;margin-bottom:15px}
+  .hero p{font-size:14px;line-height:1.55;margin:0}
+  .actions{gap:8px;margin-top:20px}
+  .actions .btn{flex:1;justify-content:center;min-width:145px}
+  .content{padding:24px 16px 48px}
+  .heading{font-size:27px;line-height:1.02;letter-spacing:-.7px;margin:8px 0 12px}
+  .sub{font-size:13px;line-height:1.55}
+  .crumb{font-size:11px;margin-bottom:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .split{grid-template-columns:1fr;gap:12px}
+  .feature{min-height:235px}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .tile{min-height:205px;border-radius:8px}
+  .tile .info{padding:11px 10px}
+  .tile strong{font-size:14px;line-height:1.05;padding-right:23px}
+  .tile small{font-size:11px}
+  .arrow{width:24px;height:24px;right:8px;bottom:9px;font-size:12px}
+  .hscroll{margin-right:-16px;padding-right:16px;gap:10px}
+  .hscroll>.tile{flex-basis:78vw;min-height:230px}
+  .collab{flex-basis:82vw;min-height:245px}
+  .collab img{height:245px}
+  .collab span{font-size:16px;padding:35px 13px 13px}
+  .guide{padding:10px 11px;gap:8px;font-size:12px}
+  .guide .btn{padding:10px 11px;font-size:11px;white-space:nowrap}
+  .size-row{gap:7px;margin:13px 0 18px}
+  .size{flex:1;min-width:52px;padding:12px 8px}
+  .product{grid-template-columns:1fr;gap:18px}
+  .main-photo{border-radius:8px;aspect-ratio:1/1.08}
+  .thumbs{gap:7px;padding:9px 0 2px}
+  .thumbs button{flex-basis:64px;height:64px}
+  .product .price{font-size:28px;margin:5px 0 12px}
+  .product .details{font-size:14px;margin-bottom:18px}
+  .product .btn.green{width:100%;justify-content:center;margin-top:2px}
+  .notice{font-size:13px;margin:16px 0;padding:14px}
+  .section-spacer{margin-top:30px}
+  .accessory-cover{min-height:235px}
+  .modal{padding:10px;align-items:center}
+  .modal-box{padding:17px 14px;border-radius:10px;max-height:88vh}
+  .modal-head h2{font-size:18px;margin:4px 0 8px}
+  .modal table{font-size:11px;min-width:430px}
+  .modal-box{overflow:auto}
+  .modal th,.modal td{padding:9px 5px;white-space:nowrap}
+  .footer{padding:28px 16px 32px;display:flex;align-items:center;text-align:center;gap:18px}
+  .footer-logo{order:0;font-size:22px}
+  .footer-nav{order:1;display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:12px;font-weight:800}
+  .footer-socials{order:2;justify-content:center}
+  .admin-layout{grid-template-columns:1fr;gap:10px}
+  .admin-nav{display:flex;overflow-x:auto}
+  .admin-nav button{white-space:nowrap}
+}
+@media(max-width:380px){
+  .hero h1{font-size:38px}
+  .grid{gap:7px}
+  .tile{min-height:185px}
+  .tile strong{font-size:13px}
+  .actions .btn{min-width:130px;padding:13px 12px}
+}
+
+.hero-position-preview{width:100%;min-height:210px;border-radius:9px;background-size:cover;background-repeat:no-repeat;display:flex;align-items:center;padding:22px;color:white;overflow:hidden}.hero-position-preview span{font:clamp(18px,3vw,32px)/1.05 'Archivo Black',sans-serif;max-width:460px;text-shadow:0 2px 4px #0005}.field input[type=range]{padding:0;accent-color:#ffc400;cursor:pointer} .cover-position-preview{height:210px;width:100%;background-color:#e5eaf1;background-size:cover;background-repeat:no-repeat;border-radius:8px;border:1px solid #dce2ea;margin:10px 0} .collab-position-preview{height:245px;max-width:390px;width:100%;overflow:hidden;border-radius:9px;background:#e9eef3;margin:12px 0}.collab-position-preview img{width:100%;height:100%;object-fit:cover;display:block}
+.collab-position-preview{aspect-ratio:3/4;height:auto;max-width:340px}
+/* V7: formato editorial de imagenes. Portadas 9:16, fotos interiores 3:4. */
+.grid .tile.product-tile{aspect-ratio:9/16;min-height:0}
+.grid .tile.product-tile img{object-fit:cover;object-position:center}
+.product .main-photo{aspect-ratio:3/4;height:auto;object-fit:contain;background:#f3f5f8;cursor:zoom-in}
+.product .thumbs button{height:80px;flex-basis:64px;background:#f3f5f8}
+.product .thumbs img{object-fit:contain}
+.collab{aspect-ratio:3/4;min-height:0;height:auto;flex:0 0 min(340px,74vw)}
+.collab img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+@media(max-width:700px){.product .main-photo{aspect-ratio:3/4}.collab{flex-basis:74vw;min-height:0}.collab img{height:100%}.grid .tile.product-tile{min-height:0}}
+
+/* V8: zoom visual solo en portadas de catálogos y KOKOS x FÚTBOL. */
+.collab img,.collab-position-preview img,.catalog-cover-tile img,.catalog-position-preview img{transform-origin:center center;transition:transform .18s ease,object-position .18s ease}
+.catalog-cover-tile{overflow:hidden}
+.catalog-position-preview{width:min(100%,340px);aspect-ratio:9/16;border-radius:9px;overflow:hidden;background:#e9eef3;margin:12px 0}
+.catalog-position-preview img{width:100%;height:100%;object-fit:cover;display:block}
+.catalog-position-editor{padding:14px;background:#f8fafc;border:1px solid #dce2ea;border-radius:9px;margin-bottom:14px}
+
+/* Aviso destacado en ambas guías de tallas */
+.size-guide-highlight{display:flex;align-items:center;gap:11px;background:#eaf2ff;border:1px solid #b5d1fb;border-left:5px solid #1765c1;border-radius:8px;padding:13px 15px;color:#082b56;margin:14px 0 20px;box-shadow:0 3px 10px rgba(5,37,74,.07);font-size:14px;line-height:1.5;letter-spacing:.015em}
+.size-guide-highlight strong{font-weight:800}
+.size-guide-highlight-icon{display:inline-flex;flex:none;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#0b4b96;color:white;font-weight:900;font-size:15px}
+
+/* V14: Tarjetas rectangulares compactas SOLO en la sección Bajo pedido del inicio. */
+.catalog-preview>.tile{aspect-ratio:1/1.12;height:auto;min-height:0;flex:0 0 min(235px,55vw);align-self:flex-start}
+.catalog-preview>.tile img{width:100%;height:100%;object-fit:cover}
+@media(max-width:700px){.catalog-preview>.tile{aspect-ratio:1/1.12;min-height:0;flex-basis:min(215px,58vw)}}
+
+/* V15: tarjetas de productos VARIOS compactas, como las de Bajo pedido en Inicio. */
+.varios-catalog .grid .tile.product-tile{aspect-ratio:1/1.12;min-height:0}
+.varios-catalog .grid .tile.product-tile img{width:100%;height:100%;object-fit:cover}
+.gallery-stage{position:relative}.gallery-stage .main-photo{display:block}.gallery-arrow{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:48px;border:0;border-radius:9px;background:var(--blue);color:white;font-size:24px;font-weight:800;display:grid;place-items:center;z-index:2;transition:background .15s}.gallery-arrow:hover{filter:brightness(.9)}.gallery-prev{left:10px}.gallery-next{right:10px}@media(max-width:700px){.gallery-arrow{width:34px;height:42px;font-size:20px;opacity:.85}}
+.collab-carousel{position:relative;min-width:0}.collab-track{scrollbar-width:none;-ms-overflow-style:none;overscroll-behavior-x:contain}.collab-track::-webkit-scrollbar{display:none}.collab-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:42px;height:48px;border:0;border-radius:8px;background:var(--blue);color:#fff;font-size:25px;cursor:pointer}.collab-prev{left:9px}.collab-next{right:9px}.collab-nav:hover{filter:brightness(.9)}@media(max-width:700px){.collab-nav{width:34px;height:42px;font-size:20px}}
+
+/* V21: encuadres independientes para celular */
+@media(max-width:700px){
+ .hero.kokos-responsive-hero{background-image:linear-gradient(90deg,#001d3ae8,#001d3a77),var(--hero-mobile-image)!important;background-position:var(--hero-mobile-x,50%) var(--hero-mobile-y,50%)!important;background-size:var(--hero-mobile-size,cover)!important;background-repeat:no-repeat!important}
+ img.kokos-responsive-cover{object-position:var(--cover-mobile-x,50%) var(--cover-mobile-y,50%)!important;transform:scale(var(--cover-mobile-scale,1))!important;transform-origin:var(--cover-mobile-x,50%) var(--cover-mobile-y,50%)!important}
+}
+.mobile-position-preview{width:210px;max-width:100%;height:280px;border-radius:10px;background-color:#e5eaf1;background-repeat:no-repeat;display:flex;align-items:center;padding:15px;color:#fff;overflow:hidden}
+.mobile-position-preview span{font:17px/1.1 'Archivo Black',sans-serif;text-shadow:0 2px 4px #0008}
+.mobile-cover-group{border:1px solid #dce2ea;border-radius:10px;padding:14px;margin:12px 0;background:#f8fafc}
+.mobile-cover-group h4{margin:0 0 8px}
+</style><style>
+.varios-variant-panel{margin:16px 0;padding:16px;border:1px solid #d6dfeb;border-radius:10px;background:#f0f5fb}.varios-variant-panel h3{margin:0 0 6px}.varios-radio{display:flex;align-items:center;gap:8px;margin:12px 0}.varios-radio input{width:auto}.varios-variant-row,.varios-variant-head{display:grid;grid-template-columns:minmax(0,2fr) minmax(80px,1fr) 46px;gap:8px;margin:8px 0;align-items:center}.varios-variant-row input{width:100%;min-width:0;padding:9px;border:1px solid #cbd5e1;border-radius:6px}.varios-variant-row .btn{padding:8px}.varios-variant-head{font-weight:700;font-size:12px}.varios-variant-panel [hidden]{display:none!important}.varios-picker{margin:16px 0}.varios-picker .size-row{flex-wrap:wrap}.varios-picker .size{min-width:48px}
+</style></head><body><div class="shell"><header class="top"><nav id="nav"><button onclick="go('home')">INICIO</button><button onclick="go('stock')">STOCK</button><button onclick="go('order')">BAJO PEDIDO</button><div id="socialMobile" class="socials mobile-socials"></div></nav><div class="logo" onclick="go('home')">KOKOS<br>RETRO</div><div id="socialTop" class="top-socials socials"></div><button class="hamb" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Abrir menú">☰</button></header><main id="app"></main><footer class="footer"><div class="footer-nav"><a href="#home">INICIO</a><a href="#stock">STOCK</a><a href="#order">BAJO PEDIDO</a></div><div class="logo footer-logo">KOKOS<br>RETRO</div><div id="socialFooter" class="socials footer-socials"></div></footer><div class="bottomnav"><button onclick="go('home')">INICIO</button><button onclick="go('stock')">STOCK</button><button onclick="go('order')">BAJO PEDIDO</button></div></div><div id="overlay"></div><script>
+const IMG={jersey:'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=900',stadium:'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=900',jacket:'https://images.unsplash.com/photo-1544923246-77307dd654cb?w=900',ball:'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=900'};
+const DEFAULT={settings:{whatsapp:'',instagram:'',tiktok:'',facebook:'',youtube:'',navColor:'#05254a',hero:'',homeTitle:'NO ES SOLO UNA CAMISETA. ES FÚTBOL.',stockCover:'',orderCover:''},products:[{id:'demo1',name:'AC MILAN 2006/07 (EJEMPLO)',version:'retro',price:40,description:'Producto de demostración. Sustituye imágenes, precio y disponibilidad con tus datos reales.',images:[IMG.jersey,IMG.stadium],stock:{S:0,M:2,L:1,XL:0,'2XL':0},visible:true},{id:'demo2',name:'CAMISETA PLAYER (EJEMPLO)',version:'player',price:40,description:'Producto de demostración.',images:[IMG.ball],stock:{S:1,M:0,L:2,XL:1,'2XL':0},visible:true}],catalogs:[{id:'rompe',name:'ROMPEVIENTOS',type:'detail',price:50,description:'Modelos de rompevientos de diferentes equipos y temporadas. Fotografías de referencia; elige el modelo en el catálogo externo.',images:[IMG.jacket,IMG.stadium],url:'',visible:true},{id:'nuevos',name:'NUEVOS MODELOS',type:'external',price:'',images:[IMG.jersey],url:'',visible:true},{id:'oasis',name:'OASIS / TOTAL 90',type:'external',price:'',images:[IMG.ball],url:'',visible:true},{id:'nba',name:'NBA',type:'external',price:'',images:[IMG.stadium],url:'',visible:true},{id:'selecciones',name:'SELECCIONES',type:'external',price:'',images:[IMG.jersey],url:'',visible:true},{id:'liga',name:'LA LIGA',type:'external',price:'',images:[IMG.ball],url:'',visible:true},{id:'premier',name:'PREMIER LEAGUE',type:'external',price:'',images:[IMG.stadium],url:'',visible:true},{id:'serie',name:'SERIE A',type:'external',price:'',images:[IMG.jersey],url:'',visible:true},{id:'bundes',name:'BUNDESLIGA',type:'external',price:'',images:[IMG.ball],url:'',visible:true},{id:'ligue',name:'LIGUE 1',type:'external',price:'',images:[IMG.stadium],url:'',visible:true}]};
+let data;try{data=JSON.parse(localStorage.getItem('kokosretro_v1'))||structuredClone(DEFAULT);data.settings={...DEFAULT.settings,...(data.settings||{})}}catch(e){data=structuredClone(DEFAULT)};let currentSize='M',currentVersion='retro',currentImage=0,adminTab='products',editing=null;const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const save=()=>localStorage.setItem('kokosretro_v1',JSON.stringify(data));const image=(s)=>esc(s||IMG.ball);function go(route){location.hash=route;render();window.scrollTo(0,0);$('nav').classList.remove('open')}function goBack(){let r=decodeURIComponent(location.hash.slice(1)||'home');if(r.startsWith('product/')){go('catalog/'+currentVersion+'/'+currentSize);return}if(r.startsWith('catalog/')){go('stock');return}if(r.startsWith('order-detail/')){go('order');return}if(r==='stock'||r==='order'){go('home');return}history.back()}function button(label,fn,cls=''){return `<button class="btn ${cls}" onclick="${fn}">${label}</button>`}function tiles(items,kind){if(!items.length)return '<div class="empty">Todavía no hay elementos disponibles.</div>';return `<div class="grid">${items.map(x=>`<button class="tile ${kind==='catalog'?'catalog-cover-tile':'product-tile'}" ${kind==='catalog'?`data-catalog-id="${esc(x.id)}"`: ''} onclick="${kind==='catalog'?`openCatalog('${x.id}')`:`go('product/${x.id}')`}"><img src="${image(x.images?.[0])}" alt=""><span class="info"><strong>${esc(x.name)}</strong>${x.price!==''&&x.price!=null?`<small>$ ${esc(x.price)} USD</small>`:''}</span><span class="arrow">→</span></button>`).join('')}</div>`}function guide(){let player=currentVersion==='player',rows=player?[['S','160–165','71','94'],['M','160–170','73','98'],['L','170–175','75','102'],['XL','175–180','77','106'],['2XL','180–185','79','110']]:[['S','55–65','165–170','69','100'],['M','65–75','170–175','73','104'],['L','75–85','175–180','76','110'],['XL','85–95','180–185','79','112'],['2XL','95–105','185–190','81','114']];$('overlay').innerHTML=`<div class="modal" onclick="closeModal(event)"><div class="modal-box"><div class="modal-head"><h2>GUÍA DE TALLAS · ${player?'PLAYER':'RETRO / FAN'}</h2><button class="close" onclick="closeModal()">×</button></div><p class="size-guide-highlight"><span class="size-guide-highlight-icon">!</span><strong>${player?'RECOMENDABLE 1 TALLA MÁS A LA QUE USAS':'TALLAS INTERNACIONALES'}</strong></p><table><thead><tr>${(player?['Talla','Estatura','Largo','Pecho']:['Talla','Peso','Estatura','Largo','Pecho']).map(t=>`<th>${t}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table><p class="small">Medidas de referencia facilitadas por Kokos Retro.</p></div></div>`}function closeModal(e){if(!e||e.target.classList.contains('modal'))$('overlay').innerHTML=''}function gallery(obj){let imgs=obj.images?.filter(Boolean)||[];return `<div class="gallery-wrap"><div class="gallery-stage"><img class="main-photo" onclick="mainPhotoClick()" ontouchstart="galleryTouchStart(event)" ontouchend="galleryTouchEnd(event)" id="mainimg" src="${image(imgs[currentImage]||imgs[0])}" alt="${esc(obj.name)}">${imgs.length>1?`<button class="gallery-arrow gallery-prev" type="button" aria-label="Fotografía anterior" onclick="moveGallery(-1)">&#10094;</button><button class="gallery-arrow gallery-next" type="button" aria-label="Fotografía siguiente" onclick="moveGallery(1)">&#10095;</button>`:""}</div><div class="thumbs">${imgs.map((s,i)=>`<button class="${i===currentImage?'selected':''}" onclick="selectImg(${i})"><img src="${image(s)}" alt="Foto ${i+1}"></button>`).join('')}</div></div>`}function selectImg(i){
+  const thumbs=[...document.querySelectorAll('.gallery-wrap .thumbs button')];
+  if(!thumbs.length)return;
+  currentImage=(i+thumbs.length)%thumbs.length;
+  const img=document.getElementById('mainimg');
+  const selected=thumbs[currentImage].querySelector('img');
+  if(img&&selected)img.src=selected.src;
+  thumbs.forEach((btn,j)=>btn.classList.toggle('selected',j===currentImage));
+}
+function moveGallery(delta){
+  const count=document.querySelectorAll('.gallery-wrap .thumbs button').length;
+  if(count>1)selectImg(currentImage+delta);
+}
+let galleryTouchX=0,galleryTouchY=0,suppressGalleryZoomUntil=0;
+function galleryTouchStart(e){
+  const t=e.changedTouches[0];
+  galleryTouchX=t.clientX;galleryTouchY=t.clientY;
+}
+function galleryTouchEnd(e){
+  const t=e.changedTouches[0];
+  const dx=t.clientX-galleryTouchX,dy=t.clientY-galleryTouchY;
+  if(Math.abs(dx)<45 || Math.abs(dx)<Math.abs(dy)*1.2)return;
+  const count=document.querySelectorAll('.gallery-wrap .thumbs button').length;
+  if(count<2)return;
+  suppressGalleryZoomUntil=Date.now()+700;
+  moveGallery(dx<0?1:-1);
+}
+function mainPhotoClick(){
+  if(Date.now()<suppressGalleryZoomUntil)return;
+  zoom();
+}function zoom(){let im=$('mainimg');$('overlay').innerHTML=`<div class="modal" onclick="closeModal(event)"><button class="close" style="position:absolute;top:15px;right:25px;color:white" onclick="closeModal()">×</button><img class="zoom" src="${im.src}"></div>`}function sizes(obj){return `<div class="size-row">${['S','M','L','XL','2XL'].map(s=>`<button class="size ${currentSize===s?'active':''}" ${!obj.stock?.[s]?'disabled':''} onclick="currentSize='${s}';render(false)">${s}</button>`).join('')}</div>`}function whatsapp(obj){let phone=data.settings.whatsapp.replace(/\D/g,'');if(!phone){alert('Primero configura el número de WhatsApp desde Administrar → Ajustes.');return}let msg=`Hola, quiero consultar por ${obj.name}, versión ${obj.version==='player'?'Player':obj.version==='varios'?'Varios':'Retro/Fan'}, talla ${currentSize}.`;window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`,'_blank','noopener')}
+function whatsappCatalog(obj){let phone=data.settings.whatsapp.replace(/\D/g,'');if(!phone){alert('El número de WhatsApp todavía no está configurado. Podrás agregarlo desde Administrar → Ajustes.');return}let msg=`Hola, quiero consultar por ${obj?.name||'un producto de bajo pedido'}.`;window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`,'_blank','noopener')}
+function openCatalog(id){let c=data.catalogs.find(x=>x.id===id);if(!c)return;if(c.type==='external'){if(!/^https?:\/\//i.test(c.url||'')){alert('Este catálogo todavía no tiene un enlace. Agrégalo desde Administrar.');return}window.open(c.url,'_blank','noopener,noreferrer')}else{currentImage=0;go('order-detail/'+id)}}function external(id){let c=data.catalogs.find(x=>x.id===id);if(!/^https?:\/\//i.test(c?.url||'')){alert('Configura primero el enlace del catálogo en Administrar.');return}window.open(c.url,'_blank','noopener,noreferrer')}
+function setupLoopCarousels(){document.querySelectorAll('.hscroll').forEach(el=>{if(el.dataset.loopReady==='1'||el.children.length<2)return;el.dataset.loopReady='1';let originals=[...el.children];originals.forEach(n=>el.appendChild(n.cloneNode(true)));[...originals].reverse().forEach(n=>el.insertBefore(n.cloneNode(true),el.firstChild));requestAnimationFrame(()=>{let third=el.scrollWidth/3;el.scrollLeft=third;let lock=false;el.addEventListener('scroll',()=>{if(lock)return;let t=el.scrollWidth/3;if(el.scrollLeft<t*.45){lock=true;el.scrollLeft+=t;requestAnimationFrame(()=>lock=false)}else if(el.scrollLeft>t*1.55){lock=true;el.scrollLeft-=t;requestAnimationFrame(()=>lock=false)}})})})}
+function applyTheme(){let c=data.settings.navColor||'#05254a';if(/^#[0-9a-f]{6}$/i.test(c))document.documentElement.style.setProperty('--navy',c)}function socialIcon(name,url){let icons={Instagram:'<svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.7 6.2a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1z"/></svg>',TikTok:'<svg viewBox="0 0 24 24"><path d="M14 2h3a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7V16a6 6 0 1 1-6-6h1v3a3 3 0 1 0 2 2.8V2z"/></svg>',WhatsApp:'<svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.5-.3-2.9.8.8-2.8-.3-.5A8 8 0 1 1 12 20zm4.4-6.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.6.8-.8.9-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2 7.2 7.2 0 0 1-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.5.3-.5a.5.5 0 0 0 0-.5c-.1-.1-.6-1.5-.9-2-.2-.5-.5-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 12 12 0 0 0 4.6 4.1 15 15 0 0 0 1.5.5 3.6 3.6 0 0 0 1.7.1 2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3z"/></svg>',Facebook:'<svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v6h4v-6h3.2l.8-4h-4V9c0-.7.3-1 1-1z"/></svg>',YouTube:'<svg viewBox="0 0 24 24"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.5 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-3.8 31 31 0 0 0-.5-3.8zM10 15.5v-7l6 3.5-6 3.5z"/></svg>'};return `<a class="social-icon" href="${esc(url||'#')}" ${url?'target="_blank" rel="noopener"':''} aria-label="${name}" title="${name}" onclick="${url?'':'event.preventDefault()'}">${icons[name]}</a>`}function renderSocials(){let links=[['Instagram',data.settings.instagram],['TikTok',data.settings.tiktok],['WhatsApp',data.settings.whatsapp?`https://wa.me/${data.settings.whatsapp.replace(/\D/g,'')}`:''],['Facebook',data.settings.facebook],['YouTube',data.settings.youtube]];let html=links.map(([n,u])=>socialIcon(n,u)).join('');['socialFooter','socialTop','socialMobile'].forEach(id=>{let el=$(id);if(el)el.innerHTML=html})}
+function responsiveCoverImg(key, fallback){
+ const d=data.settings;
+ const x=Number(d[key+'MobileX']??d[key+'X']??50),y=Number(d[key+'MobileY']??d[key+'Y']??50),z=Number(d[key+'MobileZoom']??d[key+'Zoom']??100);
+ const url=d[key+'Mobile']||d[key]||fallback||'';
+ return `class="kokos-responsive-cover" data-mobile-src="${esc(url)}" style="--cover-mobile-x:${x}%;--cover-mobile-y:${y}%;--cover-mobile-scale:${z/100};` ;
+}
+function applyMobileCoverSources(){
+ const mobile=window.matchMedia('(max-width:700px)').matches;
+ document.querySelectorAll('img.kokos-responsive-cover').forEach(img=>{
+  if(!img.dataset.desktopSrc)img.dataset.desktopSrc=img.getAttribute('src')||'';
+  const wanted=mobile?(img.dataset.mobileSrc||img.dataset.desktopSrc):img.dataset.desktopSrc;
+  if(img.getAttribute('src')!==wanted)img.setAttribute('src',wanted);
+ });
+}
+window.addEventListener('resize',applyMobileCoverSources);
+function render(scroll=true){let r=decodeURIComponent(location.hash.slice(1)||'home'),h='';if(r==='home'){h=`<section class="hero kokos-responsive-hero" style="--hero-mobile-image:url('${image(data.settings.heroMobile||data.settings.hero)}');--hero-mobile-x:${Number(data.settings.heroMobileX??data.settings.heroX??50)}%;--hero-mobile-y:${Number(data.settings.heroMobileY??data.settings.heroY??50)}%;--hero-mobile-size:${Number(data.settings.heroMobileZoom??data.settings.heroZoom??100)===100?'cover':'auto '+Number(data.settings.heroMobileZoom??data.settings.heroZoom)+'%'};${data.settings.hero?`background:linear-gradient(90deg,#001d3ae8,#001d3a77),url('${image(data.settings.hero)}') ${Number(data.settings.heroX??50)}% ${Number(data.settings.heroY??50)}%/${Number(data.settings.heroZoom??100)===100?'cover':'auto '+Number(data.settings.heroZoom)+'%'}`:''}"><h1>${esc(data.settings.homeTitle)}</h1><p>Historias del fútbol, camisetas y colecciones para vivirlas a tu manera.</p><div class="actions">${button('VER STOCK →',"go('stock')")}${button('BAJO PEDIDO →',"go('order')",'outline')}</div></section><section class="content"><h2 class="heading">STOCK DISPONIBLE AHORA</h2><div class="split"><button class="tile feature" onclick="go('stock')"><img ${responsiveCoverImg('playerCover','')}object-position:${Number(data.settings.playerCoverX??50)}% ${Number(data.settings.playerCoverY??50)}%;transform:scale(${Number(data.settings.playerCoverZoom??100)/100});transform-origin:${Number(data.settings.playerCoverX??50)}% ${Number(data.settings.playerCoverY??50)}%"  src="${image(data.settings.playerCover||data.settings.stockCover||IMG.ball)}"><span class="info"><strong>PLAYER VERSION</strong><small>Ir a Stock</small></span></button><button class="tile feature" onclick="go('stock')"><img ${responsiveCoverImg('retroCover','')}object-position:${Number(data.settings.retroCoverX??50)}% ${Number(data.settings.retroCoverY??50)}%;transform:scale(${Number(data.settings.retroCoverZoom??100)/100});transform-origin:${Number(data.settings.retroCoverX??50)}% ${Number(data.settings.retroCoverY??50)}%" src="${image(data.settings.retroCover||data.settings.stockCover||IMG.jersey)}"><span class="info"><strong>RETRO / FAN VERSION</strong><small>Ir a Stock</small></span></button></div><h2 class="heading section-spacer">¿BUSCAS OTRO MODELO? <span style="color:var(--blue)">BAJO PEDIDO.</span></h2><p class="sub">Explora algunos de nuestros catálogos. Toca cualquiera para ver más.</p><div class="hscroll catalog-preview">${data.catalogs.filter(c=>c.visible).slice(0,5).map(c=>`<button class="tile" data-catalog-id="${esc(c.id)}" onclick="openCatalog('${c.id}')"><img src="${image(c.images?.[0])}"><span class="info"><strong>${esc(c.name)}</strong>${c.price!==''&&c.price!=null?`<small>$ ${esc(c.price)} USD</small>`:''}</span><span class="arrow">→</span></button>`).join('')}</div><div class="actions">${button('VER TODOS LOS CATÁLOGOS →',"go('order')")}</div><div class="section-spacer"><h2 class="heading">KOKOS × FÚTBOL</h2><p class="sub">Kokos Retro dentro del fútbol.</p><div class="collab-carousel"><button class="collab-nav collab-prev" aria-label="Fotografía anterior" onclick="slideCollab(-1,true)">&#10094;</button><div class="hscroll collab-track" id="collab-track">${(data.collabs||[]).map(c=>`<div class="collab"><img style="object-position:${collabPos(c).x}% ${collabPos(c).y}%" src="${image(c.image_url)}" alt="${esc(c.title||'Kokos x Fútbol')}"><span>${esc(c.title||'KOKOS × FÚTBOL')}</span></div>`).join('')||'<div class="empty">Próximamente: KOKOS × FÚTBOL</div>'}</div><button class="collab-nav collab-next" aria-label="Fotografía siguiente" onclick="slideCollab(1,true)">&#10095;</button></div></div></div></section>`}else if(r==='stock'){h=`<section class="content"><div class="crumb">INICIO › STOCK</div><h1 class="heading">STOCK DISPONIBLE</h1><p class="sub">Selecciona una versión y una talla para ver únicamente lo disponible.</p>${['player','retro'].map(v=>`<div class="section-spacer"><button class="tile feature" style="width:100%" onclick="currentVersion='${v}';currentSize='M';go('catalog/${v}/M')"><img ${responsiveCoverImg(v==='player'?'playerCover':'retroCover',data.settings.stockCover||(v==='player'?IMG.ball:IMG.jersey))}" src="${image((v==='player'?data.settings.playerCover:data.settings.retroCover)||data.settings.stockCover||(v==='player'?IMG.ball:IMG.jersey))}"><span class="info"><strong>${v==='player'?'PLAYER VERSION':'RETRO / FAN VERSION'}</strong><small>Explorar productos →</small></span></button><div class="guide"><b>GUÍA DE TALLAS · ${v==='player'?'PLAYER':'RETRO / FAN'}</b><button class="btn outline" onclick="currentVersion='${v}';guide()">VER GUÍA ↗</button></div><div class="size-row">${(v==='player'?['S','M','L','XL']:['S','M','L','XL','2XL']).map(s=>`<button class="size" onclick="currentVersion='${v}';currentSize='${s}';go('catalog/${v}/${s}')">${s}</button>`).join('')}</div></div>`).join('')}<div class="section-spacer"><button class="tile feature accessory-cover" onclick="currentVersion='varios';currentSize='M';go('catalog/varios')"><img ${responsiveCoverImg('variosCover','')}object-position:${Number(data.settings.variosCoverX??50)}% ${Number(data.settings.variosCoverY??50)}%;transform:scale(${Number(data.settings.variosCoverZoom??100)/100});transform-origin:${Number(data.settings.variosCoverX??50)}% ${Number(data.settings.variosCoverY??50)}%" src="${image(data.settings.variosCover||IMG.jacket)}"><span class="info"><strong>VARIOS</strong><small>Explorar productos →</small></span><span class="arrow">→</span></button></div></section>`}else if(r.startsWith('catalog/')){let [,v,s]=r.split('/');currentVersion=v;currentSize=s;let list=data.products.filter(p=>p.visible&&p.version===v&&Number(p.stock?.[s])>0);h=`<section class="content"><div class="crumb"><a href="#stock">STOCK</a> › ${v==='player'?'PLAYER':v==='varios'?'VARIOS':'RETRO / FAN'} › TALLA ${s}</div><h1 class="heading">${v==='player'?'PLAYER':v==='varios'?'VARIOS':'RETRO / FAN'} VERSION</h1><div class="guide"><b>GUÍA DE TALLAS</b><button class="btn outline" onclick="guide()">VER GUÍA ↗</button></div><div class="size-row">${(v==='player'?['S','M','L','XL']:['S','M','L','XL','2XL']).map(z=>`<button class="size ${z===s?'active':''}" onclick="currentSize='${z}';go('catalog/${v}/${z}')">${z}</button>`).join('')}</div><p class="sub">Mostrando productos disponibles en talla ${s}.</p>${tiles(list,'product')}</section>`}else if(r.startsWith('product/')){let p=data.products.find(x=>x.id===r.split('/')[1]);if(!p){go('stock');return}if(!p.stock?.[currentSize])currentSize=Object.keys(p.stock).find(k=>p.stock[k]>0)||'M';currentVersion=p.version;let rec=data.products.filter(x=>x.id!==p.id&&x.visible&&x.version===p.version&&x.stock?.[currentSize]>0);h=`<section class="content"><div class="crumb"><a href="#stock">STOCK</a> › <a href="#catalog/${p.version}/${currentSize}">${p.version==='player'?'PLAYER':p.version==='varios'?'VARIOS':'RETRO/FAN'} · ${currentSize}</a> › ${esc(p.name)}</div><div class="product">${gallery(p)}<div><h1 class="heading">${esc(p.name)}</h1><div class="price">$ ${esc(p.price)} USD</div><p class="details">${esc(p.description)}</p><b>TALLA</b>${sizes(p)}${button('☏ CONSULTAR POR WHATSAPP →',`whatsapp(data.products.find(x=>x.id==='${p.id}'))`,'green')}<p class="small">Consulta disponibilidad y condiciones directamente con nosotros.</p></div></div>${rec.length?`<div class="section-spacer"><h2 class="heading">TAMBIÉN DISPONIBLES EN TALLA ${currentSize}</h2>${tiles(rec,'product')}</div>`:''}<div class="section-spacer">${button('← VOLVER AL CATÁLOGO',`go('catalog/${p.version}/${currentSize}')`,'outline')}</div></section>`}else if(r==='order'){h=`<section class="hero" style="padding:34px 5%"><h1>BAJO <em>PEDIDO</em></h1><p>Catálogos de modelos que no tenemos en stock. Entrega aproximada: 40 días.</p></section><section class="content"><div class="crumb">INICIO › BAJO PEDIDO</div>${tiles(data.catalogs.filter(c=>c.visible),'catalog')}</section>`}else if(r.startsWith('order-detail/')){let c=data.catalogs.find(x=>x.id===r.split('/')[1]);if(!c){go('order');return}h=`<section class="content"><div class="crumb"><a href="#order">BAJO PEDIDO</a> › ${esc(c.name)}</div><div class="product">${gallery(c)}<div><h1 class="heading">${esc(c.name)}</h1>${c.price!==''&&c.price!=null?`<div class="price">$ ${esc(c.price)} USD</div>`:''}<p class="details">${esc(c.description||'Explora los modelos disponibles en el catálogo enlazado.')}</p>${button('↗ VER CATÁLOGO',`external('${c.id}')`)}<div class="notice"><b>Bajo pedido</b><br>Modelos que no tenemos en stock.<br><br><b>Tiempo de entrega</b><br>Aproximadamente 40 días.</div>${button('☏ CONSULTAR POR WHATSAPP →',`whatsappCatalog(data.catalogs.find(x=>x.id==='${c.id}'))`,'green')}</div></div></section>`}else if(r==='admin'){h=admin()}else{h='<section class="content"><h1>Página no encontrada</h1></section>'}if(r!=='home'&&r!=='admin'&&!h.includes('Página no encontrada'))h=h.replace(/<section class="(content|hero)[^"]*"([^>]*)>/,m=>m+`<button class="page-back" onclick="goBack()">← VOLVER</button>`);$('app').innerHTML=h;applyTheme();renderSocials();setupLoopCarousels();applyMobileCoverSources()}function admin(){if(sessionStorage.getItem('kokos_admin')!=='yes'){return `<section class="content"><h1 class="heading">ADMINISTRAR KOKOS RETRO</h1><p class="sub">Panel de demostración. Los cambios se guardan únicamente en este navegador; todavía no es un sistema seguro ni compartido.</p><div class="field"><label>Clave local de prueba</label><input id="adminpass" type="password" placeholder="Introduce una clave para esta sesión"></div>${button('ENTRAR',"loginAdmin()")}</section>`}let nav=['products','catalogs','settings'];return `<section class="content"><h1 class="heading">PANEL DE ADMINISTRACIÓN</h1><p class="small">Versión local de prueba · Los cambios no se sincronizan entre dispositivos. Para producción se necesitará autenticación real y base de datos.</p><div class="admin-layout"><div class="admin-nav">${nav.map(n=>`<button class="${adminTab===n?'active':''}" onclick="adminTab='${n}';editing=null;render(false)">${({products:'Stock',catalogs:'Bajo pedido',settings:'Ajustes'})[n]}</button>`).join('')}<button onclick="sessionStorage.removeItem('kokos_admin');render(false)">Salir</button></div><div>${adminTab==='settings'?settingsAdmin():listAdmin()}</div></div></section>`}function loginAdmin(){if(!$('adminpass').value.trim()){alert('Escribe una clave temporal. Este acceso es solo una demostración, no seguridad real.');return}sessionStorage.setItem('kokos_admin','yes');render(false)}function listAdmin(){let list=adminTab==='products'?data.products:data.catalogs;return `<div class="actions">${button('+ AÑADIR '+(adminTab==='products'?'PRODUCTO':'CATÁLOGO'),"editing='new';render(false)")}</div>${editing!==null?editForm():''}${list.map(x=>`<div class="admin-card"><h3>${esc(x.name)}</h3><div class="small">${adminTab==='products'?`Versión: ${x.version} · Stock: ${Object.entries(x.stock||{}).map(([s,n])=>s+': '+n).join(' · ')}`:`Tipo: ${x.type} · ${x.url?'Enlace configurado':'Sin enlace'}`} · ${x.visible?'Visible':'Oculto'}</div><div class="actions">${button('EDITAR',`editing='${x.id}';render(false)`,'outline')}${button(x.visible?'OCULTAR':'MOSTRAR',`toggleItem('${x.id}')`,'outline')}${button('ELIMINAR',`deleteItem('${x.id}')`,'outline')}</div></div>`).join('')}`}
+function editForm(){let isProd=adminTab==='products',arr=isProd?data.products:data.catalogs,old=arr.find(x=>x.id===editing),x=old||{name:'',description:'',price:'',images:[],url:'',version:'retro',type:'external',stock:{S:0,M:0,L:0,XL:0,'2XL':0},visible:true};return `<div class="admin-card" style="background:#f8fafc"><h2>${old?'Editar':'Nuevo'} ${isProd?'producto':'catálogo'}</h2><div class="field"><label>Nombre</label><input id="edname" value="${esc(x.name)}"></div><div class="field"><label>Precio en USD (opcional para catálogos)</label><input id="edprice" type="number" min="0" step="0.01" value="${esc(x.price)}"></div><div class="field"><label>Descripción</label><textarea id="eddesc">${esc(x.description)}</textarea></div>${isProd?`<div class="field"><label>Versión</label><select id="edversion"><option value="retro" ${x.version==='retro'?'selected':''}>Retro / Fan</option><option value="player" ${x.version==='player'?'selected':''}>Player</option></select></div><b>Inventario por talla</b><div class="size-row">${['S','M','L','XL','2XL'].map(s=>`<label style="width:65px">${s}<input style="width:100%;padding:8px" id="stock_${s}" type="number" min="0" value="${Number(x.stock?.[s]||0)}"></label>`).join('')}</div>`:`<div class="field"><label>Tipo de tarjeta</label><select id="edtype"><option value="external" ${x.type==='external'?'selected':''}>Abre enlace directamente</option><option value="detail" ${x.type==='detail'?'selected':''}>Ficha con fotos y precio</option></select></div><div class="field"><label>Enlace externo (https://...)</label><input id="edurl" value="${esc(x.url)}"></div>`}<div class="field"><label>Fotos (una URL de imagen por línea)</label><textarea id="edimages" style="min-height:110px">${esc((x.images||[]).join('\n'))}</textarea><span class="small">Selecciona fotografías desde tu dispositivo con SUBIR FOTOS.</span></div><div class="actions">${button('GUARDAR',"saveEdit()")}${button('CANCELAR',"editing=null;render(false)",'outline')}</div></div>`}function saveEdit(){let isProd=adminTab==='products',arr=isProd?data.products:data.catalogs,old=arr.find(x=>x.id===editing),name=$('edname').value.trim();if(!name){alert('Escribe el nombre.');return}let x={...(old||{}),id:old?.id||'item'+Date.now(),name,price:$('edprice').value===''?'':Number($('edprice').value),description:$('eddesc').value,images:$('edimages').value.split('\n').map(s=>s.trim()).filter(Boolean),visible:old?.visible??true};if(isProd){x.version=$('edversion').value;x.stock=Object.fromEntries(['S','M','L','XL','2XL'].map(s=>[s,Math.max(0,Number($('stock_'+s).value)||0)]))}else{x.type=$('edtype').value;x.url=$('edurl').value.trim();if(x.url&&!/^https?:\/\//i.test(x.url)){alert('El enlace debe comenzar con https:// o http://');return}}if(old)Object.assign(old,x);else arr.push(x);save();editing=null;render(false)}function toggleItem(id){let x=(adminTab==='products'?data.products:data.catalogs).find(x=>x.id===id);x.visible=!x.visible;save();render(false)}function deleteItem(id){if(!confirm('¿Eliminar este elemento?'))return;let key=adminTab==='products'?'products':'catalogs';data[key]=data[key].filter(x=>x.id!==id);save();editing=null;render(false)}function settingsAdmin(){return `<div class="admin-card"><h2>Datos generales</h2>${[['whatsapp','WhatsApp (código país + número, sin +)'],['instagram','Enlace Instagram'],['tiktok','Enlace TikTok'],['facebook','Enlace Facebook'],['youtube','Enlace YouTube'],['navColor','Color azul principal (HEX, ej. #05254a)'],['homeTitle','Titular de inicio'],['hero','URL de imagen del inicio'],['stockCover','URL de portada de Stock'],['orderCover','URL de portada de Bajo pedido']].map(([key,label])=>`<div class="field"><label>${label}</label><input id="set_${key}" value="${esc(data.settings[key])}"></div>`).join('')}${button('GUARDAR AJUSTES',"saveSettings()")}</div><div class="admin-card"><h3>Datos de demostración</h3><p class="small">Puedes restaurar los ejemplos originales. Esto borra tus cambios locales.</p>${button('RESTAURAR EJEMPLOS',"resetData()",'outline')}</div>`}function saveSettings(){Object.keys(data.settings).forEach(k=>{let el=$('set_'+k);if(el)data.settings[k]=el.value.trim()});save();alert('Ajustes guardados en este navegador.');render(false)}function resetData(){if(confirm('¿Borrar todos los cambios de esta prueba?')){data=structuredClone(DEFAULT);save();render(false)}}
+// Kokos Retro Web — conexión exclusiva a su proyecto Supabase.
+const SB_URL='https://viasfdrwmnwpgrkmetdo.supabase.co';
+const SB_KEY='sb_publishable_BapiIR515UwsC1e-yCVGxw_b9VDae-M';
+let sbSession=null;
+const sessionKey='kokos_supabase_session';
+function getSession(){try{return JSON.parse(sessionStorage.getItem(sessionKey)||'null')}catch{return null}}
+function isLogged(){return !!(sbSession&&sbSession.access_token)}
+async function sbRequest(path,{method='GET',body,auth=false,headers={}}={}){
+ const token=auth?sbSession?.access_token:SB_KEY;
+ if(auth&&!token)throw Error('Inicia sesión de nuevo.');
+ // V36: todas las operaciones del administrador usan tablas privadas de edición.
+ // Los visitantes continúan leyendo exclusivamente las tablas públicas originales.
+ if(auth && /^\/rest\/v1\//.test(path)){
+   path=path.replace(/^\/rest\/v1\/(products|product_inventory|product_images|order_catalogs|order_catalog_images|site_settings|collaborations)(?=[?\/]|$)/,
+     (_full,table)=>'/rest/v1/kokos_draft_'+table);
+ }
+ const res=await fetch(SB_URL+path,{method,headers:{apikey:SB_KEY,Authorization:'Bearer '+token,...(body===undefined?{}:{'Content-Type':'application/json'}),...headers},body:body===undefined?undefined:JSON.stringify(body)});
+ if(!res.ok){let detail=await res.text();throw Error('Supabase ('+res.status+'): '+detail.slice(0,250))}
+ const txt=await res.text();return txt?JSON.parse(txt):null;
+}
+async function sbTable(name,params=''){return sbRequest('/rest/v1/'+name+'?select=*'+(params?'&'+params:''),{auth:isLogged()})}
+function rowProduct(p,images,inventory){return {id:p.id,name:p.name,version:p.product_type==='player'?'player':'retro',price:p.price??'',description:p.description||'',images:images.filter(x=>x.product_id===p.id).sort((a,b)=>a.sort_order-b.sort_order).map(x=>x.image_url),stock:Object.fromEntries(inventory.filter(x=>x.product_id===p.id).map(x=>[x.size,x.quantity])),visible:p.published!==false,slug:p.slug}}
+function rowCatalog(c,images){return {id:c.id,name:c.name,type:c.catalog_type==='detail'?'detail':'external',price:c.price??'',description:c.description||'',images:[c.cover_image_url,...images.filter(x=>x.catalog_id===c.id).sort((a,b)=>a.sort_order-b.sort_order).map(x=>x.image_url)].filter(Boolean),url:c.external_url||'',visible:c.published!==false,slug:c.slug}}
+async function loadCloud(){
+ try{
+ const [settings,products,inventory,images,catalogs,catalogImages]=await Promise.all([sbTable('site_settings'),sbTable('products'),sbTable('product_inventory'),sbTable('product_images'),sbTable('order_catalogs'),sbTable('order_catalog_images')]);
+ const st=settings[0]||{};window.kokosSettingsId=st.id;
+ data.settings={...DEFAULT.settings,whatsapp:st.whatsapp||'',instagram:st.instagram||'',tiktok:st.tiktok||'',facebook:st.facebook||'',youtube:st.youtube||'',navColor:st.nav_color||'#05254a',hero:st.hero_image_url||'',homeTitle:st.hero_title||DEFAULT.settings.homeTitle,stockCover:st.stock_cover_url||'',orderCover:st.order_cover_url||'',heroX:Number(st.content?.heroX??50),heroY:Number(st.content?.heroY??50),heroZoom:Number(st.content?.heroZoom??100),playerCover:st.content?.playerCover||'',retroCover:st.content?.retroCover||'',variosCover:st.content?.variosCover||'',...Object.fromEntries(['playerCover','retroCover','variosCover','orderCover'].flatMap(k=>[[k+'X',Number(st.content?.[k+'X']??50)],[k+'Y',Number(st.content?.[k+'Y']??50)],[k+'Zoom',Number(st.content?.[k+'Zoom']??100)]])),...Object.fromEntries(['hero','playerCover','retroCover','variosCover','orderCover'].flatMap(k=>[[k+'Mobile',st.content?.[k+'Mobile']||''],[k+'MobileX',Number(st.content?.[k+'MobileX']??st.content?.[k+'X']??50)],[k+'MobileY',Number(st.content?.[k+'MobileY']??st.content?.[k+'Y']??50)],[k+'MobileZoom',Number(st.content?.[k+'MobileZoom']??st.content?.[k+'Zoom']??100)]]))};
+ data.products=products.map(p=>rowProduct(p,images,inventory));data.catalogs=catalogs.map(c=>rowCatalog(c,catalogImages));
+ window.kokosCloudReady=true;render(false);
+ }catch(e){console.error(e);document.getElementById('app').innerHTML='<section class="content"><h2>No se pudo cargar el catálogo</h2><p>Revisa la conexión y las políticas de lectura de Supabase.</p><button class="btn" onclick="loadCloud()">REINTENTAR</button></section>';}
+}
+async function sbLogin(){
+ const email=$('adminemail')?.value.trim(),password=$('adminpass')?.value;
+ if(!email||!password){alert('Escribe correo y contraseña.');return}
+ try{
+ const response=await sbRequest('/auth/v1/token?grant_type=password',{method:'POST',body:{email,password}});
+ sbSession=response;sessionStorage.setItem(sessionKey,JSON.stringify(response));
+ const check=await sbRequest('/rest/v1/admin_users?select=user_id&user_id=eq.'+encodeURIComponent(response.user.id),{auth:true});
+ if(!check.length)throw Error('Este usuario no tiene permiso de administrador.');
+ render(false);
+ }catch(e){sbSession=null;sessionStorage.removeItem(sessionKey);alert('No se pudo iniciar sesión: '+e.message)}
+}
+async function sbLogout(){sbSession=null;sessionStorage.removeItem(sessionKey);render(false)}
+function admin(){
+ if(!isLogged())return `<section class="content"><h1 class="heading">ADMINISTRAR KOKOS RETRO</h1><p class="sub">Acceso privado conectado a Supabase.</p><div class="field"><label>Correo electrónico</label><input id="adminemail" type="email" autocomplete="username"></div><div class="field"><label>Contraseña</label><input id="adminpass" type="password" autocomplete="current-password"></div>${button('INICIAR SESIÓN','sbLogin()')}</section>`;
+ let nav=['products','catalogs','settings'];return `<section class="content"><h1 class="heading">PANEL DE ADMINISTRACIÓN</h1><p class="small">Los cambios se guardan en Supabase y se reflejan en el catálogo público.</p><div class="admin-layout"><div class="admin-nav">${nav.map(n=>`<button class="${adminTab===n?'active':''}" onclick="adminTab='${n}';editing=null;render(false)">${({products:'Stock',catalogs:'Bajo pedido',settings:'Ajustes'})[n]}</button>`).join('')}<button onclick="sbLogout()">Salir</button></div><div>${adminTab==='settings'?settingsAdmin():listAdmin()}</div></div></section>`;
+}
+async function sbWrite(table,body,method='POST',query=''){
+ return sbRequest('/rest/v1/'+table+(query?'?'+query:''),{method,body,auth:true,headers:{Prefer:'return=minimal'+(method==='POST'?',resolution=merge-duplicates':'')}});
+}
+// V35: edición diferencial: conservar registros sin cambios, y nunca borrar toda la galería para reinsertarla.
+async function kokosV35SyncPhotos(table,fk,id,previous,next){
+ const oldRows=await sbTable(table,fk+'=eq.'+encodeURIComponent(id));
+ const unique=[...new Set(next)];
+ if(unique.length!==next.length)throw Error('Hay fotografías repetidas. Elimina las URL duplicadas.');
+ const existing=new Map(oldRows.map(r=>[String(r.image_url),r]));
+ // Crear primero las nuevas referencias; no tocar las existentes si la inserción falla.
+ for(let i=0;i<unique.length;i++){
+  const url=unique[i];if(!existing.has(url)){
+   const payload={[fk]:id,image_url:url,sort_order:i};
+   await sbWrite(table,payload);
+  }
+ }
+ // Actualizar solo posiciones modificadas.
+ const current=await sbTable(table,fk+'=eq.'+encodeURIComponent(id));
+ for(let i=0;i<unique.length;i++){
+  const row=current.find(r=>r.image_url===unique[i]);
+  if(row&&Number(row.sort_order)!==i)await sbWrite(table,{sort_order:i},'PATCH','id=eq.'+encodeURIComponent(row.id));
+ }
+ // Eliminar solo referencias que el usuario quitó.
+ for(const row of oldRows){if(!unique.includes(row.image_url))await sbRequest('/rest/v1/'+table+'?id=eq.'+encodeURIComponent(row.id),{method:'DELETE',auth:true})}
+ return oldRows.map(r=>r.image_url).filter(url=>!unique.includes(url));
+}
+async function kokosV35CleanupStorage(urls){
+ if(!urls.length)return;
+ const [pi,ci,products,catalogs,settings]=await Promise.all([sbTable('product_images'),sbTable('order_catalog_images'),sbTable('products'),sbTable('order_catalogs'),sbTable('site_settings')]);
+ const stillUsed=new Set([...pi.map(r=>r.image_url),...ci.map(r=>r.image_url),...products.map(r=>r.cover_image_url),...catalogs.map(r=>r.cover_image_url),...settings.flatMap(r=>[r.hero_image_url,r.stock_cover_url,r.order_cover_url])]);
+ const prefix=SB_URL+'/storage/v1/object/public/kokos-images/';
+ const removable=[...new Set(urls)].filter(u=>typeof u==='string'&&u.startsWith(prefix)&&!stillUsed.has(u));
+ for(const url of removable){
+  const path=url.slice(prefix.length);
+  if(!/^catalogo\/[a-f0-9-]+\.(jpg|png|webp|avif)$/i.test(path))continue;
+  const response=await fetch(SB_URL+'/storage/v1/object/kokos-images/'+path,{method:'DELETE',headers:{apikey:SB_KEY,Authorization:'Bearer '+sbSession.access_token}});
+  if(!response.ok)console.warn('No se pudo limpiar archivo sin referencias:',path,response.status);
+ }
+}
+async function saveEdit(){
+ if(!isLogged())return alert('Debes iniciar sesión.');
+ const isProd=adminTab==='products',arr=isProd?data.products:data.catalogs,old=arr.find(x=>String(x.id)===String(editing));
+ const name=$('edname').value.trim();if(!name)return alert('Escribe el nombre.');
+ const id=old?.id||crypto.randomUUID(),price=$('edprice').value===''?null:Number($('edprice').value),description=$('eddesc').value;
+ const images=$('edimages').value.split('\n').map(x=>x.trim()).filter(Boolean);
+ if(new Set(images).size!==images.length)return alert('La galería tiene fotografías repetidas.');
+ const slug=(name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'item')+'-'+id.slice(0,8);
+ const table=isProd?'products':'order_catalogs';
+ try{
+  let fields,oldFields;
+  if(isProd){
+   fields={name,description,price:price??0,product_type:$('edversion').value,cover_image_url:images[0]||null,published:old?.visible??true};
+   oldFields=old?{name:old.name,description:old.description||'',price:Number(old.price)||0,product_type:old.version,cover_image_url:old.images?.[0]||null,published:old.visible!==false}:null;
+  }else{
+   const url=$('edurl').value.trim();if(url&&!/^https?:\/\//i.test(url))return alert('El enlace debe comenzar con https://');
+   fields={name,description,price,cover_image_url:images[0]||null,catalog_type:$('edtype').value,external_url:url||null,published:old?.visible??true};
+   oldFields=old?{name:old.name,description:old.description||'',price:old.price===''?null:old.price,cover_image_url:old.images?.[0]||null,catalog_type:old.type,external_url:old.url||null,published:old.visible!==false}:null;
+  }
+  const delta=old?Object.fromEntries(Object.entries(fields).filter(([k,v])=>JSON.stringify(v)!==JSON.stringify(oldFields[k]))):{id,slug,...fields};
+  if(Object.keys(delta).length)await sbWrite(table,delta,old?'PATCH':'POST',old?'id=eq.'+encodeURIComponent(id):'');
+  const removed=await kokosV35SyncPhotos(isProd?'product_images':'order_catalog_images',isProd?'product_id':'catalog_id',id,old?.images||[],isProd?images:images.slice(1));
+  if(isProd){
+   const stock=['S','M','L','XL','2XL'].map(size=>({product_id:id,size,quantity:Math.max(0,Number($('stock_'+size)?.value)||0)}));
+   const changed=stock.filter(r=>!old||Number(old.stock?.[r.size]||0)!==r.quantity);
+   if(changed.length)await kokosV30SaveInventory(id,changed);
+  }
+  // Limpiar archivos únicamente si no están referenciados en otros productos.
+  const removedUrls=[...(old?.images||[]).filter(u=>!images.includes(u)),...removed];
+  if(removedUrls.length)try{await kokosV35CleanupStorage(removedUrls)}catch(e){console.warn('Limpieza de fotografías pendiente:',e)}
+  editing=null;await loadCloud();alert(Object.keys(delta).length||images.join('|')!==(old?.images||[]).join('|')?'Producto guardado en Supabase.':'Guardado sin cambios innecesarios.');
+ }catch(e){alert('No se pudo guardar: '+e.message+'\nLos cambios completados antes del error pueden haberse aplicado. Recarga antes de reintentar.')}
+}
+async function toggleItem(id){const table=adminTab==='products'?'products':'order_catalogs',x=(adminTab==='products'?data.products:data.catalogs).find(p=>p.id===id);if(!x)return;try{await sbWrite(table,{published:!x.visible},'PATCH','id=eq.'+id);await loadCloud()}catch(e){alert(e.message)}}
+async function deleteItem(id){if(!confirm('¿Eliminar este elemento definitivamente?'))return;const table=adminTab==='products'?'products':'order_catalogs';try{await sbRequest('/rest/v1/'+table+'?id=eq.'+id,{method:'DELETE',auth:true});editing=null;await loadCloud()}catch(e){alert(e.message)}}
+async function saveSettings(){const val=k=>$('set_'+k)?.value.trim()||'';const row={whatsapp:val('whatsapp'),instagram:val('instagram'),tiktok:val('tiktok'),facebook:val('facebook'),youtube:val('youtube'),nav_color:val('navColor'),hero_title:val('homeTitle'),hero_image_url:val('hero')||null,stock_cover_url:val('stockCover')||null,order_cover_url:val('orderCover')||null};try{await sbWrite('site_settings',row,'PATCH','id=eq.'+window.kokosSettingsId);await loadCloud();alert('Ajustes guardados en Supabase.')}catch(e){alert('Error al guardar ajustes: '+e.message)}}
+function resetData(){alert('Los datos reales de Supabase no se pueden restaurar desde esta opción.')} 
+
+// Subida de fotografías al bucket exclusivo de Kokos Retro.
+const kokosOriginalEditForm=editForm;
+editForm=function(){
+ const html=kokosOriginalEditForm();
+ return html.replace('<div class="actions">'+button('GUARDAR',"saveEdit()"),
+ `<div class="field"><label>Subir fotografías desde tu dispositivo</label><input id="kokosFiles" type="file" accept="image/jpeg,image/png,image/webp,image/avif" multiple><button type="button" class="btn outline" onclick="kokosUploadPhotos('kokosFiles','edimages')">SUBIR FOTOS</button><span class="small">Las imágenes se guardan en Kokos Retro Web. Espera el mensaje de confirmación antes de guardar el producto.</span></div><div class="actions">`+button('GUARDAR',"saveEdit()"));
+};
+const kokosOriginalSettingsAdmin=settingsAdmin;
+settingsAdmin=function(){
+ let html=kokosOriginalSettingsAdmin();
+ for(const key of ['hero','stockCover','orderCover']){
+  const marker=`<input id="set_${key}"`;
+  const start=html.indexOf(marker);
+  if(start<0)continue;
+  const end=html.indexOf('</div>',start);
+  if(end<0)continue;
+  const uploader=`<input id="file_${key}" type="file" accept="image/jpeg,image/png,image/webp,image/avif"><button class="btn outline" type="button" onclick="kokosUploadPhotos('file_${key}','set_${key}')">SUBIR IMAGEN</button>`;
+  html=html.slice(0,end)+uploader+html.slice(end);
+ }
+ return html;
+};
+async function kokosUploadPhotos(fileInputId,targetId){
+ if(!isLogged())return alert('Primero inicia sesión como administrador.');
+ const fileInput=$(fileInputId),target=$(targetId),files=[...(fileInput?.files||[])];
+ if(!target||!files.length)return alert('Selecciona al menos una fotografía.');
+ const allowed=['image/jpeg','image/png','image/webp','image/avif'];
+ if(files.some(f=>!allowed.includes(f.type)||f.size>8*1024*1024))return alert('Usa JPG, PNG, WebP o AVIF de hasta 8 MB por fotografía.');
+ const btn=fileInput.nextElementSibling;
+ if(btn)btn.disabled=true;
+ try{
+  const urls=[];
+  for(const file of files){
+   const ext=({'image/jpeg':'jpg','image/png':'png','image/webp':'webp','image/avif':'avif'})[file.type];
+   const path='catalogo/'+crypto.randomUUID()+'.'+ext;
+   const response=await fetch(SB_URL+'/storage/v1/object/kokos-images/'+path,{
+    method:'POST',headers:{apikey:SB_KEY,Authorization:'Bearer '+sbSession.access_token,'Content-Type':file.type,'x-upsert':'false'},body:file
+   });
+   if(!response.ok)throw Error('No se pudo subir '+file.name+' ('+response.status+'): '+(await response.text()).slice(0,180));
+   urls.push(SB_URL+'/storage/v1/object/public/kokos-images/'+path);
+  }
+  target.value=targetId==='edimages'?[target.value.trim(),...urls].filter(Boolean).join('\n'):urls[0];
+  alert(urls.length+' imagen(es) subida(s). Ahora pulsa GUARDAR para aplicar los cambios.');
+ }catch(error){alert(error.message)}finally{if(btn)btn.disabled=false;}
+}
+
+
+// Extensiones v3: Varios, portadas individuales, carrusel y edición visual.
+const kokosV2LoadCloud=loadCloud;
+loadCloud=async function(){
+ await kokosV2LoadCloud();
+ if(!window.kokosCloudReady)return;
+ try{
+  const [st,collabs]=await Promise.all([sbTable('site_settings'),sbTable('collaborations')]);
+  const content=st[0]?.content||{};
+  data.settings.playerCover=content.playerCover||'';
+  data.settings.retroCover=content.retroCover||'';
+  data.settings.variosCover=content.variosCover||'';
+  data.collabs=collabs.filter(x=>x.published!==false).sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
+  // The public content policy may hide unpublished items; admins read all.
+  if(isLogged())data.collabs=collabs.sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
+  render(false);
+ }catch(e){console.error('No se pudieron cargar portadas o carrusel:',e)}
+};
+const kokosV2RowProduct=rowProduct;
+rowProduct=function(p,images,inventory){
+ const x=kokosV2RowProduct(p,images,inventory);
+ x.version=p.product_type==='varios'?'varios':x.version;
+ x.images=[p.cover_image_url,...x.images].filter((u,i,a)=>u&&a.indexOf(u)===i);
+ return x;
+};
+const kokosV2Admin=admin;
+admin=function(){
+ if(!isLogged())return kokosV2Admin();
+ const nav=['products','catalogs','collabs','covers','settings'];
+ return `<section class="content"><h1 class="heading">PANEL DE ADMINISTRACIÓN</h1><p class="small">Los cambios se guardan en Supabase.</p><div class="admin-layout"><div class="admin-nav">${nav.map(n=>`<button class="${adminTab===n?'active':''}" onclick="adminTab='${n}';editing=null;render(false)">${({products:'Stock',catalogs:'Bajo pedido',collabs:'KOKOS × FÚTBOL',covers:'Imágenes de la web',settings:'Ajustes'})[n]}</button>`).join('')}<button onclick="sbLogout()">Salir</button></div><div>${adminTab==='collabs'?collabsAdmin():adminTab==='covers'?coversAdmin():adminTab==='settings'?settingsAdmin():listAdmin()}</div></div></section>`;
+};
+const kokosV2EditForm=editForm;
+editForm=function(){
+ let h=kokosV2EditForm();
+ h=h.replace('<option value="player"', '<option value="varios" ${x.version===\'varios\'?\'selected\':\'\'}>Varios</option><option value="player"');
+ // Above x is not in template scope at evaluation; instead use explicit selected derived from editing.
+ h=h.replace('${x.version===\'varios\'?\'selected\':\'\'}', (data.products.find(p=>p.id===editing)?.version==='varios'?'selected':''));
+ h=h.replace('Fotos (una URL de imagen por línea)','Fotografías del producto o catálogo');
+ h=h.replace('Selecciona fotografías desde tu dispositivo con SUBIR FOTOS.','Puedes subir imágenes desde tu dispositivo con el botón SUBIR FOTOS.');
+ return h;
+};
+const kokosV2SaveSettings=saveSettings;
+saveSettings=async function(){
+ if(!/^#[0-9a-fA-F]{6}$/.test(($('set_navColor')?.value||'')))return alert('Introduce un color HEX válido, por ejemplo #05254a');
+ await kokosV2SaveSettings();
+};
+function coverUploader(key,label){
+ const url=data.settings[key]||'';
+ return `<div class="admin-card"><h3>${esc(label)}</h3>${url?`<img src="${esc(url)}" style="width:220px;max-width:100%;border-radius:8px;display:block;margin:10px 0">`:''}<div class="field"><label>Imagen actual (URL)</label><input id="cover_${key}" value="${esc(url)}"></div><div class="field"><label>Seleccionar fotografía</label><input id="filecover_${key}" type="file" accept="image/jpeg,image/png,image/webp,image/avif"><button class="btn outline" onclick="kokosUploadPhotos('filecover_${key}','cover_${key}')">SUBIR IMAGEN</button></div></div>`;
+}
+function mobileCoverControls(key,label){
+ const k=key+'Mobile', d=data.settings;
+ const url=d[k]||'';
+ const x=Number(d[k+'X']??d[key+'X']??50),y=Number(d[k+'Y']??d[key+'Y']??50),z=Number(d[k+'Zoom']??d[key+'Zoom']??100);
+ const isHero=key==='hero';
+ const shown=url||d[key]||'';
+ return `<div class="mobile-cover-group"><h4>📱 Versión para celular · ${esc(label)}</h4><p class="small">Opcional: sube una imagen diferente para celular o deja el campo vacío para usar la misma foto con otro encuadre.</p><div class="field"><label>Imagen para celular (URL, opcional)</label><input id="cover_${k}" value="${esc(url)}" oninput="updateMobileCoverPreview('${key}')"></div><div class="field"><label>Seleccionar fotografía para celular</label><input id="filecover_${k}" type="file" accept="image/jpeg,image/png,image/webp,image/avif"><button class="btn outline" onclick="kokosUploadPhotos('filecover_${k}','cover_${k}').then(()=>updateMobileCoverPreview('${key}'))">SUBIR IMAGEN PARA CELULAR</button></div><div id="preview_${k}" class="mobile-position-preview" style="background-image:${isHero?'linear-gradient(90deg,#001d3ae8,#001d3a77),':''}url('${image(shown)}');background-position:${x}% ${y}%;background-size:${z===100?'cover':'auto '+z+'%'}">${isHero?'<span>NO ES SOLO UNA CAMISETA. ES FÚTBOL.</span>':''}</div>${[['X','Posición horizontal'],['Y','Posición vertical'],['Zoom','Zoom']].map(([suffix,title])=>`<div class="field"><label>${title}: <b id="${k+suffix}Value">${suffix==='X'?x:suffix==='Y'?y:z}%</b></label><input type="range" id="${k+suffix}" min="${suffix==='Zoom'?100:0}" max="${suffix==='Zoom'?250:100}" step="${suffix==='Zoom'?5:1}" value="${suffix==='X'?x:suffix==='Y'?y:z}" oninput="updateMobileCoverPreview('${key}')"></div>`).join('')}<button class="btn outline" onclick="$('${k}X').value=50;$('${k}Y').value=50;$('${k}Zoom').value=100;updateMobileCoverPreview('${key}')">CENTRAR Y RESTABLECER ZOOM MÓVIL</button></div>`;
+}
+function updateMobileCoverPreview(key){
+ const k=key+'Mobile';
+ const x=Number($(k+'X')?.value??50),y=Number($(k+'Y')?.value??50),z=Number($(k+'Zoom')?.value??100);
+ for(const [suffix,value] of [['X',x],['Y',y],['Zoom',z]])if($(k+suffix+'Value'))$(k+suffix+'Value').textContent=value+'%';
+ const preview=$('preview_'+k);
+ if(preview){
+  preview.style.backgroundPosition=x+'% '+y+'%';preview.style.backgroundSize=z===100?'cover':'auto '+z+'%';
+  const url=$('cover_'+k)?.value||$('cover_'+key)?.value||data.settings[key]||'';
+  preview.style.backgroundImage=(key==='hero'?'linear-gradient(90deg,#001d3ae8,#001d3a77),':'')+`url("${url.replace(/"/g,'%22')}")`;
+ }
+}
+function coverPositionControls(key,label){
+ const x=Number(data.settings[key+'X']??50),y=Number(data.settings[key+'Y']??50),z=Number(data.settings[key+'Zoom']??100);
+ const url=data.settings[key]||'';
+ const isHero=key==='hero';
+ return `<div class="admin-card" style="background:#f8fafc"><h3>AJUSTAR ENCUADRE · ${esc(label)}</h3><p class="small">Mueve la imagen y pulsa GUARDAR PORTADAS para aplicar el cambio.</p><div id="preview_${key}" class="${isHero?'hero-position-preview':'cover-position-preview'}" style="background-image:${isHero?'linear-gradient(90deg,#001d3ae8,#001d3a77),':''}url('${image(url)}');background-position:${x}% ${y}%;background-size:${z===100?'cover':`auto ${z}%`}">${isHero?'<span>NO ES SOLO UNA CAMISETA. ES FÚTBOL.</span>':''}</div><div class="field"><label>Posición horizontal: <b id="${key}XValue">${x}%</b></label><input type="range" id="${key}X" min="0" max="100" value="${x}" oninput="updateCoverPreview('${key}')"><div class="small">Izquierda ← → Derecha</div></div><div class="field"><label>Posición vertical: <b id="${key}YValue">${y}%</b></label><input type="range" id="${key}Y" min="0" max="100" value="${y}" oninput="updateCoverPreview('${key}')"><div class="small">Arriba ↑ ↓ Abajo</div></div><div class="field"><label>Zoom: <b id="${key}ZoomValue">${z}%</b></label><input type="range" id="${key}Zoom" min="100" max="250" step="5" value="${z}" oninput="updateCoverPreview('${key}')"></div><button class="btn outline" onclick="$('${key}X').value=50;$('${key}Y').value=50;$('${key}Zoom').value=100;updateCoverPreview('${key}')">CENTRAR Y RESTABLECER ZOOM</button></div>`;
+}
+function updateCoverPreview(key){
+ const x=Number($(key+'X')?.value??50),y=Number($(key+'Y')?.value??50),z=Number($(key+'Zoom')?.value??100);
+ if($(key+'ZoomValue'))$(key+'ZoomValue').textContent=z+'%';
+ if($(key+'XValue'))$(key+'XValue').textContent=x+'%';
+ if($(key+'YValue'))$(key+'YValue').textContent=y+'%';
+ const preview=$('preview_'+key);
+ if(preview){preview.style.backgroundPosition=x+'% '+y+'%';preview.style.backgroundSize=z===100?'cover':('auto '+z+'%');const url=$('cover_'+key)?.value||'';preview.style.backgroundImage=(key==='hero'?'linear-gradient(90deg,#001d3ae8,#001d3a77),':'')+`url("${url.replace(/"/g,'%22')}")`;}
+}
+function coversAdmin(){
+ return `<h2>IMÁGENES DE LA WEB</h2><p class="small">Sube cada fotografía y luego pulsa GUARDAR PORTADAS. Las portadas Player, Retro/Fan y Varios son independientes.</p>${[['hero','Imagen principal del inicio'],['playerCover','Portada Player'],['retroCover','Portada Retro / Fan'],['variosCover','Portada Varios'],['orderCover','Portada Bajo pedido']].map(([k,l])=>coverUploader(k,l)+coverPositionControls(k,l)+mobileCoverControls(k,l)).join('')}<button class="btn" onclick="saveCovers()">GUARDAR PORTADAS</button>`;
+}
+async function saveCovers(){
+ if(!isLogged())return alert('Inicia sesión.');
+ const val=k=>$('cover_'+k)?.value.trim()||null;
+ try{
+  const rows=await sbTable('site_settings');const row=rows[0];if(!row)throw Error('No hay ajustes configurados.');
+  const content={...(row.content||{}),playerCover:val('playerCover')||'',retroCover:val('retroCover')||'',variosCover:val('variosCover')||'',...Object.fromEntries(['hero','playerCover','retroCover','variosCover','orderCover'].flatMap(k=>[[k+'X',Number($(k+'X')?.value??50)],[k+'Y',Number($(k+'Y')?.value??50)],[k+'Zoom',Number($(k+'Zoom')?.value??100)]])),...Object.fromEntries(['hero','playerCover','retroCover','variosCover','orderCover'].flatMap(k=>[[k+'Mobile', $('cover_'+k+'Mobile')?.value.trim()||''],[k+'MobileX',Number($(k+'MobileX')?.value??50)],[k+'MobileY',Number($(k+'MobileY')?.value??50)],[k+'MobileZoom',Number($(k+'MobileZoom')?.value??100)]]))};
+  await sbWrite('site_settings',{hero_image_url:val('hero'),order_cover_url:val('orderCover'),content},'PATCH','id=eq.'+row.id);
+  await loadCloud();alert('Portadas guardadas en Supabase.');
+ }catch(e){alert('No se pudieron guardar las portadas: '+e.message)}
+}
+function collabsAdmin(){
+ const arr=data.collabs||[];
+ return `<h2>KOKOS × FÚTBOL</h2><p class="small">Fotografías del carrusel del inicio. Puedes cambiar su orden y ocultarlas.</p><div class="admin-card"><h3>Nueva fotografía</h3><div class="field"><label>Título</label><input id="collab_title" placeholder="KOKOS × FÚTBOL"></div><div class="field"><label>Imagen (URL)</label><input id="collab_image"></div><div class="field"><label>Subir fotografía</label><input type="file" id="collab_file" accept="image/jpeg,image/png,image/webp,image/avif"><button class="btn outline" onclick="kokosUploadPhotos('collab_file','collab_image')">SUBIR FOTO</button></div><button class="btn" onclick="saveCollab()">AÑADIR AL CARRUSEL</button></div>${arr.map((c,i)=>`<div class="admin-card"><img src="${esc(c.image_url||'')}" style="width:180px;max-width:100%;border-radius:8px"><div class="field"><label>Título</label><input id="ct_${c.id}" value="${esc(c.title||'')}"></div><div class="field"><label>URL de fotografía</label><input id="ci_${c.id}" value="${esc(c.image_url||'')}">${collabPositionEditor(c)}</div><div class="actions"><button class="btn outline" onclick="updateCollab('${c.id}')">GUARDAR</button><button class="btn outline" onclick="moveCollab('${c.id}',-1)" ${i===0?'disabled':''}>↑</button><button class="btn outline" onclick="moveCollab('${c.id}',1)" ${i===arr.length-1?'disabled':''}>↓</button><button class="btn outline" onclick="toggleCollab('${c.id}',${!c.published})">${c.published?'OCULTAR':'MOSTRAR'}</button><button class="btn outline" onclick="deleteCollab('${c.id}')">ELIMINAR</button></div></div>`).join('')}`;
+}
+async function saveCollab(){
+ const title=$('collab_title').value.trim()||'KOKOS × FÚTBOL',image_url=$('collab_image').value.trim();
+ if(!/^https?:\/\//.test(image_url))return alert('Primero sube una fotografía.');
+ try{await sbWrite('collaborations',{title,image_url,published:true,sort_order:(data.collabs||[]).length});await loadCloud();alert('Fotografía añadida.')}catch(e){alert(e.message)}
+}
+async function updateCollab(id){try{await sbWrite('collaborations',{title:$('ct_'+id).value.trim(),image_url:$('ci_'+id).value.trim()},'PATCH','id=eq.'+id);await loadCloud();alert('Guardado.')}catch(e){alert(e.message)}}
+async function toggleCollab(id,published){try{await sbWrite('collaborations',{published},'PATCH','id=eq.'+id);await loadCloud()}catch(e){alert(e.message)}}
+async function deleteCollab(id){if(!confirm('¿Eliminar esta fotografía del carrusel?'))return;try{await sbRequest('/rest/v1/collaborations?id=eq.'+id,{method:'DELETE',auth:true});await loadCloud()}catch(e){alert(e.message)}}
+async function moveCollab(id,dir){
+ const arr=data.collabs||[],i=arr.findIndex(x=>x.id===id),j=i+dir;if(i<0||j<0||j>=arr.length)return;
+ try{await sbWrite('collaborations',{sort_order:j},'PATCH','id=eq.'+arr[i].id);await sbWrite('collaborations',{sort_order:i},'PATCH','id=eq.'+arr[j].id);await loadCloud()}catch(e){alert(e.message)}
+}
+
+/* V6: encuadre independiente de fotografías KOKOS × FÚTBOL.
+   Se guarda en site_settings.content.collabPositions sin cambiar la estructura de tablas. */
+let kokosCollabPositions={};
+function collabPos(c){
+ const p=kokosCollabPositions[c.id]||{};
+ return {x:Number.isFinite(Number(p.x))?Number(p.x):50,y:Number.isFinite(Number(p.y))?Number(p.y):50,zoom:Math.min(2.5,Math.max(1,Number(p.zoom)||1))};
+}
+function collabPositionEditor(c){
+ const p=collabPos(c),id=esc(c.id),url=image(c.image_url);
+ return `<div class="admin-card" style="background:#f8fafc"><b>AJUSTAR ENCUADRE</b><p class="small">Vista previa del recorte del carrusel. Puedes usar fotos verticales, horizontales o cuadradas.</p><div class="collab-position-preview" id="cp_preview_${id}"><img src="${url}" alt="Vista previa" style="object-position:${p.x}% ${p.y}%;transform:scale(${p.zoom});transform-origin:${p.x}% ${p.y}%"></div><div class="field"><label>Posición horizontal: <b id="cp_xlabel_${id}">${p.x}%</b></label><input type="range" min="0" max="100" value="${p.x}" id="cp_x_${id}" oninput="previewCollabPosition('${id}')"><span class="small">Izquierda ← → Derecha</span></div><div class="field"><label>Posición vertical: <b id="cp_ylabel_${id}">${p.y}%</b></label><input type="range" min="0" max="100" value="${p.y}" id="cp_y_${id}" oninput="previewCollabPosition('${id}')"><span class="small">Arriba ↑ ↓ Abajo</span></div><div class="field"><label>Zoom: <b id="cp_zlabel_${id}">${Math.round(p.zoom*100)}%</b></label><input type="range" min="100" max="250" step="5" value="${Math.round(p.zoom*100)}" id="cp_zoom_${id}" oninput="previewCollabPosition('${id}')"></div><button class="btn outline" onclick="resetCollabPosition('${id}')">CENTRAR IMAGEN Y ZOOM</button><p class="small">Pulsa GUARDAR en esta fotografía para conservar la posición.</p></div>`;
+}
+function previewCollabPosition(id){
+ const x=$('cp_x_'+id)?.value??50,y=$('cp_y_'+id)?.value??50;
+ const im=$('cp_preview_'+id)?.querySelector('img');if(im){im.style.objectPosition=x+'% '+y+'%';im.style.transform='scale('+Number($('cp_zoom_'+id)?.value||100)/100+')';im.style.transformOrigin=x+'% '+y+'%';}if($('cp_zlabel_'+id))$('cp_zlabel_'+id).textContent=($('cp_zoom_'+id)?.value||100)+'%';
+ if($('cp_xlabel_'+id))$('cp_xlabel_'+id).textContent=x+'%';
+ if($('cp_ylabel_'+id))$('cp_ylabel_'+id).textContent=y+'%';
+}
+function resetCollabPosition(id){if($('cp_x_'+id))$('cp_x_'+id).value=50;if($('cp_y_'+id))$('cp_y_'+id).value=50;if($('cp_zoom_'+id))$('cp_zoom_'+id).value=100;previewCollabPosition(id)}
+async function persistCollabPosition(id,pos){
+ const rows=await sbTable('site_settings');const row=rows[0];if(!row)throw Error('No se encontraron ajustes.');
+ const content={...(row.content||{})};
+ content.collabPositions={...(content.collabPositions||{}),[id]:pos};
+ await sbWrite('site_settings',{content},'PATCH','id=eq.'+row.id);
+ kokosCollabPositions=content.collabPositions;
+}
+const kokosV5UpdateCollab=updateCollab;
+updateCollab=async function(id){
+ const title=$('ct_'+id)?.value.trim()||'KOKOS × FÚTBOL';
+ const image_url=$('ci_'+id)?.value.trim()||'';
+ const pos={x:Number($('cp_x_'+id)?.value??50),y:Number($('cp_y_'+id)?.value??50),zoom:Number($('cp_zoom_'+id)?.value??100)/100};
+ try{
+  await sbWrite('collaborations',{title,image_url},'PATCH','id=eq.'+id);
+  await persistCollabPosition(id,pos);
+  await loadCloud();alert('Fotografía y encuadre guardados en Supabase.');
+ }catch(e){alert('No se pudo guardar: '+e.message)}
+};
+const kokosV5LoadCloud=loadCloud;
+loadCloud=async function(){
+ await kokosV5LoadCloud();
+ if(!window.kokosCloudReady)return;
+ try{const st=await sbTable('site_settings');kokosCollabPositions=st[0]?.content?.collabPositions||{};render(false)}
+ catch(e){console.error('No se pudo cargar el encuadre del carrusel:',e)}
+};
+const kokosV5Render=render;
+render=function(scroll=true){
+ kokosV5Render(scroll);
+ if((location.hash.slice(1)||'home')==='home'){
+  // Las imágenes duplicadas del carrusel infinito conservan el mismo orden.
+  const imgs=document.querySelectorAll('.hscroll .collab img');
+  const visible=(data.collabs||[]).filter(c=>c.published!==false);
+  if(visible.length){imgs.forEach((im,i)=>{const c=visible[i%visible.length];if(c){const p=collabPos(c);im.style.objectPosition=p.x+'% '+p.y+'%';im.style.transform='scale('+p.zoom+')';im.style.transformOrigin=p.x+'% '+p.y+'%'}})}
+ }
+};
+
+
+// V8: encuadre y zoom de portadas de catálogos (sin afectar imágenes de productos).
+let kokosCatalogPositions={};
+function catalogPosition(c){
+ const p=kokosCatalogPositions[c.id]||{};
+ return {x:Number.isFinite(Number(p.x))?Number(p.x):50,y:Number.isFinite(Number(p.y))?Number(p.y):50,zoom:Math.min(2.5,Math.max(1,Number(p.zoom)||1))};
+}
+function catalogPositionEditor(c){
+ const p=catalogPosition(c),id=esc(c.id),url=image(c.images?.[0]||'');
+ return `<div class="catalog-position-editor"><b>ENCUADRE DE PORTADA DEL CATÁLOGO</b><p class="small">Ajusta solo la portada del catálogo. Las fotografías interiores no cambian.</p><div class="catalog-position-preview" id="cat_preview_${id}"><img src="${url}" alt="Vista previa" style="object-position:${p.x}% ${p.y}%;transform:scale(${p.zoom});transform-origin:${p.x}% ${p.y}%"></div><div class="field"><label>Horizontal: <b id="cat_xlabel_${id}">${p.x}%</b></label><input type="range" id="cat_x_${id}" min="0" max="100" value="${p.x}" oninput="previewCatalogPosition('${id}')"></div><div class="field"><label>Vertical: <b id="cat_ylabel_${id}">${p.y}%</b></label><input type="range" id="cat_y_${id}" min="0" max="100" value="${p.y}" oninput="previewCatalogPosition('${id}')"></div><div class="field"><label>Zoom: <b id="cat_zlabel_${id}">${Math.round(p.zoom*100)}%</b></label><input type="range" id="cat_zoom_${id}" min="100" max="250" step="5" value="${Math.round(p.zoom*100)}" oninput="previewCatalogPosition('${id}')"></div><div class="actions"><button class="btn outline" onclick="resetCatalogPosition('${id}')">CENTRAR Y RESTABLECER ZOOM</button><button class="btn" onclick="saveCatalogPosition('${id}')">GUARDAR ENCUADRE</button></div></div>`;
+}
+function previewCatalogPosition(id){
+ const x=Number($('cat_x_'+id)?.value??50),y=Number($('cat_y_'+id)?.value??50),z=Number($('cat_zoom_'+id)?.value??100);
+ const im=$('cat_preview_'+id)?.querySelector('img');if(im){im.style.objectPosition=x+'% '+y+'%';im.style.transform='scale('+(z/100)+')';im.style.transformOrigin=x+'% '+y+'%';}
+ for(const [k,v] of [['x',x],['y',y],['z',z]]){const el=$('cat_'+k+'label_'+id);if(el)el.textContent=v+'%';}
+}
+function resetCatalogPosition(id){for(const [k,v] of [['x',50],['y',50],['zoom',100]]){const el=$('cat_'+k+'_'+id);if(el)el.value=v;}previewCatalogPosition(id)}
+async function saveCatalogPosition(id){
+ if(!isLogged())return alert('Inicia sesión.');
+ const pos={x:Number($('cat_x_'+id)?.value??50),y:Number($('cat_y_'+id)?.value??50),zoom:Number($('cat_zoom_'+id)?.value??100)/100};
+ try{
+  const rows=await sbTable('site_settings'),row=rows[0];if(!row)throw Error('No se encontraron ajustes.');
+  const content={...(row.content||{})};content.catalogPositions={...(content.catalogPositions||{}),[id]:pos};
+  await sbWrite('site_settings',{content},'PATCH','id=eq.'+row.id);
+  kokosCatalogPositions=content.catalogPositions;
+  await loadCloud();alert('Encuadre del catálogo guardado en Supabase.');
+ }catch(e){alert('No se pudo guardar el encuadre: '+e.message)}
+}
+const kokosV7ListAdmin=listAdmin;
+listAdmin=function(){
+ const html=kokosV7ListAdmin();
+ if(adminTab!=='catalogs')return html;
+ // Insertar editor en cada tarjeta existente del catálogo sin tocar los formularios.
+ let idx=0;
+ return html.replace(/<div class="admin-card"><h3>/g,(match)=>{
+  const c=data.catalogs[idx++];
+  return c?`<div class="admin-card">${catalogPositionEditor(c)}<h3>`:match;
+ });
+};
+const kokosV7LoadCloud=loadCloud;
+loadCloud=async function(){
+ await kokosV7LoadCloud();
+ if(!window.kokosCloudReady)return;
+ try{const st=await sbTable('site_settings');kokosCatalogPositions=st[0]?.content?.catalogPositions||{};render(false)}
+ catch(e){console.error('No se pudo cargar el encuadre de catálogos:',e)}
+};
+const kokosV7Render=render;
+render=function(scroll=true){
+ kokosV7Render(scroll);
+ document.querySelectorAll('.catalog-cover-tile[data-catalog-id],.catalog-preview .tile[data-catalog-id]').forEach(tile=>{
+  const c=data.catalogs.find(c=>c.id===tile.dataset.catalogId);if(!c)return;
+  const p=catalogPosition(c),im=tile.querySelector('img');if(im){im.style.objectPosition=p.x+'% '+p.y+'%';im.style.transform='scale('+p.zoom+')';im.style.transformOrigin=p.x+'% '+p.y+'%';}
+ });
+};
+
+
+// V11: VARIOS es un catálogo de artículos, sin tallas ni guía de camisetas.
+const kokosVariosRenderAnterior=render;
+render=function(scroll=true){
+ const route=decodeURIComponent(location.hash.slice(1)||'home');
+ if(route==='catalog/varios'||route.startsWith('catalog/varios/')){
+  currentVersion='varios';
+  const items=data.products.filter(p=>p.visible&&p.version==='varios');
+  $('app').innerHTML=`<section class="content varios-catalog"><button class="page-back" onclick="go('stock')">← VOLVER</button><div class="crumb"><a href="#stock">STOCK</a> › VARIOS</div><h1 class="heading">VARIOS</h1>${tiles(items,'product')}</section>`;
+  applyTheme();renderSocials();setupLoopCarousels();return;
+ }
+ if(route.startsWith('product/')){
+  const p=data.products.find(x=>String(x.id)===route.slice(8));
+  if(p&&p.version==='varios'){
+   currentVersion='varios';
+   const rec=data.products.filter(x=>x.id!==p.id&&x.visible&&x.version==='varios');
+   $('app').innerHTML=`<section class="content"><button class="page-back" onclick="go('catalog/varios')">← VOLVER</button><div class="crumb"><a href="#stock">STOCK</a> › <a href="#catalog/varios">VARIOS</a> › ${esc(p.name)}</div><div class="product">${gallery(p)}<div><h1 class="heading">${esc(p.name)}</h1><div class="price">$ ${esc(p.price)} USD</div><p class="details">${esc(p.description)}</p>${button('☏ CONSULTAR POR WHATSAPP →',`whatsapp(data.products.find(x=>x.id==='${p.id}'))`,'green')}<p class="small">Consulta disponibilidad y condiciones directamente con nosotros.</p></div></div>${rec.length?`<div class="section-spacer"><h2 class="heading">OTROS PRODUCTOS</h2>${tiles(rec,'product')}</div>`:''}<div class="section-spacer">${button('← VOLVER A VARIOS',"go('catalog/varios')",'outline')}</div></section>`;
+   applyTheme();renderSocials();setupLoopCarousels();return;
+  }
+ }
+ kokosVariosRenderAnterior(scroll);
+ if(route==='admin'&&adminTab==='products'&&editing!==null)kokosVariosFormToggle();
+};
+const kokosVariosGoBack=goBack;
+goBack=function(){const route=decodeURIComponent(location.hash.slice(1)||'home');if(route==='catalog/varios'||route.startsWith('catalog/varios/'))return go('stock');if(route.startsWith('product/')){const p=data.products.find(x=>String(x.id)===route.slice(8));if(p?.version==='varios')return go('catalog/varios')}return kokosVariosGoBack()};
+const kokosVariosWhatsapp=whatsapp;
+whatsapp=function(obj){if(obj.version!=='varios')return kokosVariosWhatsapp(obj);const phone=(data.settings.whatsapp||'').replace(/\D/g,'');if(!phone)return alert('Primero configura el número de WhatsApp desde Administrar → Ajustes.');window.open('https://wa.me/'+phone+'?text='+encodeURIComponent('Hola, quiero consultar por '+obj.name+'.'),'_blank','noopener')};
+function kokosVariosFormToggle(){
+ const select=$('edversion');if(!select)return;
+ const row=select.closest('.field');
+ let next=row?.nextElementSibling;
+ // La plantilla actual usa un título y una fila de inventario, ambos se ocultan para Varios.
+ const hide=select.value==='varios';
+ if(next&&next.tagName==='B')next.style.display=hide?'none':'';
+ if(next?.nextElementSibling?.classList.contains('size-row'))next.nextElementSibling.style.display=hide?'none':'';
+ select.onchange=()=>kokosVariosFormToggle();
+}
+const kokosVariosSaveEdit=saveEdit;
+saveEdit=async function(){
+ if(adminTab==='products'&&$('edversion')?.value==='varios'){
+  // El backend mantiene una fila técnica de inventario; no se presenta como talla al visitante.
+  for(const size of ['S','M','L','XL','2XL']){const el=$('stock_'+size);if(el)el.value=size==='M'?'1':'0'}
+ }
+ return kokosVariosSaveEdit();
+};
+
+
+// V12 — Variantes personalizadas SOLO para productos VARIOS.
+// Se almacenan en site_settings.content.variosVariants (JSONB) y se leen públicamente.
+let variosDraft=[];
+function variosRead(p){return Array.isArray(p?.variosVariants)?p.variosVariants.map(v=>({label:String(v.label||''),quantity:Math.max(0,Number(v.quantity)||0)})):[]}
+function variosRows(){
+ const root=$('variosVariantsRows');if(!root)return;
+ root.innerHTML=variosDraft.map((v,i)=>`<div class="varios-variant-row"><input aria-label="Nombre de talla o variante" placeholder="Ej. 39, 9.5 US, M" value="${esc(v.label)}" oninput="variosDraft[${i}].label=this.value"><input aria-label="Cantidad disponible" type="number" min="0" step="1" value="${v.quantity}" oninput="variosDraft[${i}].quantity=this.value"><button type="button" class="btn outline" onclick="variosDraft.splice(${i},1);variosRows()" aria-label="Eliminar variante">×</button></div>`).join('');
+}
+function variosModeChange(){let custom=$('variosCustomMode')?.checked;const box=$('variosVariantEditor');if(box)box.hidden=!custom;if(custom)variosRows()}
+function variosForm(){
+ const select=$('edversion');if(!select)return;
+ const existing=$('variosVariantControls');
+ if(select.value!=='varios'){if(existing)existing.remove();return}
+ if(existing)return;
+ const old=data.products.find(p=>p.id===editing);variosDraft=variosRead(old);
+ const wrap=document.createElement('div');wrap.id='variosVariantControls';wrap.className='varios-variant-panel';
+ wrap.innerHTML=`<h3>Tallas o variantes (solo VARIOS)</h3><p class="small">Puedes dejar el producto sin tallas o escribir las que necesites, con su cantidad disponible.</p><label class="varios-radio"><input type="radio" name="variosMode" id="variosNoMode" ${variosDraft.length?'':'checked'} onchange="variosModeChange()"> Sin tallas ni variantes</label><label class="varios-radio"><input type="radio" name="variosMode" id="variosCustomMode" ${variosDraft.length?'checked':''} onchange="variosModeChange()"> Personalizar tallas o variantes</label><div id="variosVariantEditor" ${variosDraft.length?'':'hidden'}><div class="varios-variant-head"><span>Talla o variante</span><span>Cantidad</span></div><div id="variosVariantsRows"></div><button type="button" class="btn outline" onclick="variosDraft.push({label:'',quantity:0});variosRows()">+ AGREGAR VARIANTE</button></div>`;
+ const inventory=select.closest('.field')?.nextElementSibling?.nextElementSibling;
+ (inventory||select.closest('.field')).insertAdjacentElement('afterend',wrap);
+ variosModeChange();
+}
+const variosOldToggle=kokosVariosFormToggle;
+kokosVariosFormToggle=function(){variosOldToggle();variosForm()};
+const variosPreviousLoad=loadCloud;
+loadCloud=async function(){await variosPreviousLoad();try{
+ const settings=await sbTable('site_settings');const variants=settings[0]?.content?.variosVariants||{};
+ for(const p of data.products){p.variosVariants=Array.isArray(variants[p.id])?variants[p.id]:[]}
+ if(decodeURIComponent(location.hash.slice(1)||'home')==='admin')render(false);
+}catch(e){console.warn('No se pudieron cargar las variantes de Varios',e)}};
+const variosPreviousRender=render;
+render=function(scroll=true){
+ const route=decodeURIComponent(location.hash.slice(1)||'home');
+ if(route.startsWith('product/')){
+  const p=data.products.find(x=>String(x.id)===route.slice(8));
+  if(p?.version==='varios'){
+   currentVersion='varios';const variants=variosRead(p);const available=variants.filter(v=>v.label&&v.quantity>0);
+   const rec=data.products.filter(x=>x.id!==p.id&&x.visible&&x.version==='varios');
+   const picker=variants.length?`<div class="varios-picker"><b>ELIGE TU TALLA O VARIANTE</b><div class="size-row">${variants.filter(v=>v.label).map(v=>`<button class="size" data-varios-size="${esc(v.label)}" ${v.quantity<=0?'disabled title="Agotado"':''} onclick="variosSelectSize(this)">${esc(v.label)}</button>`).join('')}</div><p class="small" id="variosSizeHint">${available.length?'Selecciona una opción disponible.':'No hay variantes disponibles actualmente.'}</p></div>`:'';
+   $('app').innerHTML=`<section class="content"><button class="page-back" onclick="go('catalog/varios')">← VOLVER</button><div class="crumb"><a href="#stock">STOCK</a> › <a href="#catalog/varios">VARIOS</a> › ${esc(p.name)}</div><div class="product">${gallery(p)}<div><h1 class="heading">${esc(p.name)}</h1><div class="price">$ ${esc(p.price)} USD</div><p class="details">${esc(p.description)}</p>${picker}${button('☏ CONSULTAR POR WHATSAPP →',`whatsapp(data.products.find(x=>x.id==='${p.id}'))`,'green')}<p class="small">Consulta disponibilidad y condiciones directamente con nosotros.</p></div></div>${rec.length?`<div class="section-spacer"><h2 class="heading">OTROS PRODUCTOS</h2>${tiles(rec,'product')}</div>`:''}<div class="section-spacer">${button('← VOLVER A VARIOS',"go('catalog/varios')",'outline')}</div></section>`;
+   applyTheme();renderSocials();setupLoopCarousels();return;
+  }
+ }
+ variosPreviousRender(scroll);
+ if(route==='admin'&&adminTab==='products'&&editing!==null)variosForm();
+};
+let variosSelectedSize='';
+function variosSelectSize(btn){document.querySelectorAll('[data-varios-size]').forEach(x=>x.classList.toggle('active',x===btn));variosSelectedSize=btn.dataset.variosSize;const hint=$('variosSizeHint');if(hint)hint.textContent='Seleccionaste: '+variosSelectedSize}
+const variosOldWhatsapp=whatsapp;
+whatsapp=function(obj){if(obj.version!=='varios')return variosOldWhatsapp(obj);const options=variosRead(obj);if(options.length){const selected=document.querySelector('[data-varios-size].active');if(!selected)return alert('Selecciona una talla o variante disponible.');variosSelectedSize=selected.dataset.variosSize}
+ const phone=(data.settings.whatsapp||'').replace(/\D/g,'');if(!phone)return alert('Primero configura el número de WhatsApp desde Administrar → Ajustes.');const msg='Hola, quiero consultar por '+obj.name+(options.length?', talla o variante '+variosSelectedSize:'')+'.';window.open('https://wa.me/'+phone+'?text='+encodeURIComponent(msg),'_blank','noopener')};
+const variosSaveBeforeV12=saveEdit;
+saveEdit=async function(){
+ if(adminTab!=='products'||$('edversion')?.value!=='varios')return variosSaveBeforeV12();
+ if(!isLogged())return alert('Debes iniciar sesión.');
+ const old=data.products.find(x=>x.id===editing),name=$('edname')?.value.trim();if(!name)return alert('Escribe el nombre.');
+ const custom=$('variosCustomMode')?.checked;
+ let variants=custom?variosDraft.map(v=>({label:String(v.label||'').trim(),quantity:Number(v.quantity)})):[];
+ if(custom){if(!variants.length)return alert('Agrega al menos una variante o selecciona Sin tallas.');if(variants.some(v=>!v.label||!Number.isInteger(v.quantity)||v.quantity<0))return alert('Completa cada variante con nombre y cantidad entera mayor o igual a cero.');if(new Set(variants.map(v=>v.label.toLowerCase())).size!==variants.length)return alert('No repitas el nombre de una variante.');}
+ const price=$('edprice').value===''?0:Number($('edprice').value),description=$('eddesc').value,images=$('edimages').value.split('\n').map(x=>x.trim()).filter(Boolean),id=old?.id||crypto.randomUUID();
+ const slug=(name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'item')+'-'+id.slice(0,8);
+ try{
+  await sbWrite('products',{id,name,slug:old?.slug||slug,description,price,product_type:'varios',cover_image_url:images[0]||null,published:old?.visible??true});
+  await sbRequest('/rest/v1/product_images?product_id=eq.'+id,{method:'DELETE',auth:true});
+  if(images.length)await sbWrite('product_images',images.map((url,i)=>({product_id:id,image_url:url,sort_order:i})));
+  // Fila técnica para compatibilidad con el esquema actual. Las variantes reales van en JSONB.
+  if(!old||Number(old.stock?.M||0)!==1)await kokosV30SaveInventory(id,[{product_id:id,size:'M',quantity:1}]);
+  const rows=await sbTable('site_settings');const st=rows[0];if(!st?.id)throw Error('No se encontró la configuración del sitio.');
+  const content={...(st.content||{})};content.variosVariants={...(content.variosVariants||{}),[id]:variants};
+  await sbWrite('site_settings',{content},'PATCH','id=eq.'+encodeURIComponent(st.id));
+  editing=null;await loadCloud();alert('Producto y variantes guardados en Supabase.');
+ }catch(e){alert('No se pudo guardar: '+e.message)}
+};
+
+sbSession=getSession();
+// No mostramos los ejemplos locales como si fueran inventario real.
+data.products=[];data.catalogs=[];
+loadCloud();
+
+let collabTimer=null;
+let collabScrollIdleTimer=null;
+let collabAutoScrolling=false;
+let collabInteractionActive=false;
+let collabLastInteraction=0;
+let collabNextDelay=2000;
+function collabTrack(){return document.getElementById('collab-track')}
+function collabCards(){return [...(collabTrack()?.querySelectorAll('.collab')||[])]}
+function clearCollabTimers(){
+ clearTimeout(collabTimer);
+ clearTimeout(collabScrollIdleTimer);
+ collabTimer=null;
+ collabScrollIdleTimer=null;
+}
+function scheduleCollabAuto(){
+ clearTimeout(collabTimer);
+ collabTimer=null;
+ const track=collabTrack();
+ if(!track||collabCards().length<2)return;
+ if(collabInteractionActive)return;
+ const delay=Math.max(0,collabNextDelay-(Date.now()-collabLastInteraction));
+ collabTimer=setTimeout(()=>{
+  if(document.hidden){scheduleCollabAuto();return}
+  if(collabInteractionActive||collabAutoScrolling)return;
+  slideCollab(1,false);
+ },delay);
+}
+function pauseCollab(){
+ collabNextDelay=2500;
+ collabInteractionActive=true;
+ collabLastInteraction=Date.now();
+ clearTimeout(collabTimer);
+ collabTimer=null;
+}
+function finishCollabInteraction(){
+ collabLastInteraction=Date.now();
+ // Wait for momentum scrolling to settle before starting the 2.5-second manual pause.
+ clearTimeout(collabScrollIdleTimer);
+ collabScrollIdleTimer=setTimeout(()=>{
+  collabInteractionActive=false;
+  collabLastInteraction=Date.now();
+  scheduleCollabAuto();
+ },220);
+}
+function slideCollab(dir,manual=false){
+ const track=collabTrack(),cards=collabCards();
+ if(!track||cards.length<2)return;
+ if(manual){pauseCollab();collabInteractionActive=false}
+ else collabNextDelay=2000;
+ const left=track.scrollLeft;
+ let i=0;
+ for(let j=1;j<cards.length;j++){
+  if(Math.abs((cards[j].offsetLeft-cards[0].offsetLeft)-left)<Math.abs((cards[i].offsetLeft-cards[0].offsetLeft)-left))i=j;
+ }
+ const next=(i+dir+cards.length)%cards.length;
+ collabAutoScrolling=true;
+ clearTimeout(collabTimer);
+ const target=cards[next].offsetLeft-cards[0].offsetLeft;
+ track.scrollTo({left:target,behavior:next===0||i===0&&dir<0?'instant':'smooth'});
+ // Do not start the countdown until the programmed scroll is finished.
+ clearTimeout(collabScrollIdleTimer);
+ collabScrollIdleTimer=setTimeout(()=>{
+  collabAutoScrolling=false;
+  collabLastInteraction=Date.now();
+  scheduleCollabAuto();
+ },next===0||i===0&&dir<0?80:650);
+}
+function startCollabCarousel(){
+ clearCollabTimers();
+ collabAutoScrolling=false;
+ collabInteractionActive=false;
+ collabLastInteraction=Date.now();
+ collabNextDelay=2000;
+ const track=collabTrack();
+ if(!track||collabCards().length<2)return;
+ const onBegin=()=>pauseCollab();
+ const onEnd=()=>finishCollabInteraction();
+ track.addEventListener('pointerdown',onBegin,{passive:true});
+ track.addEventListener('pointerup',onEnd,{passive:true});
+ track.addEventListener('pointercancel',onEnd,{passive:true});
+ track.addEventListener('touchstart',onBegin,{passive:true});
+ track.addEventListener('touchend',onEnd,{passive:true});
+ track.addEventListener('touchcancel',onEnd,{passive:true});
+ track.addEventListener('wheel',()=>{pauseCollab();finishCollabInteraction()},{passive:true});
+ track.addEventListener('scroll',()=>{
+  if(collabAutoScrolling)return;
+  pauseCollab();
+  finishCollabInteraction();
+ },{passive:true});
+ scheduleCollabAuto();
+}
+const originalRender=render;
+render=function(...args){originalRender(...args);startCollabCarousel()};
+window.addEventListener('hashchange',()=>{currentImage=0;render(false)});render();
+
+// V23 — Filtros privados de stock y orden manual de publicación.
+let kokosStockCategory='all',kokosStockSize='all',kokosStockQuery='';
+let kokosPublicOrder={products:[],catalogs:[]};
+function kokosSorted(list,ids){const ranks=new Map((ids||[]).map((id,i)=>[String(id),i]));return [...list].sort((a,b)=>(ranks.get(String(a.id))??999999)-(ranks.get(String(b.id))??999999))}
+function kokosApplyOrder(){data.products=kokosSorted(data.products,kokosPublicOrder.products);data.catalogs=kokosSorted(data.catalogs,kokosPublicOrder.catalogs)}
+function kokosOrderButtons(id,kind){const a=kind==='products'?data.products:data.catalogs,idx=a.findIndex(x=>String(x.id)===String(id));return `<div class="kokos-order-actions"><span class="small">Orden público:</span><button class="btn outline" type="button" ${idx===0?'disabled':''} onclick="kokosMoveOrder('${esc(id)}','${kind}',-1)" title="Mostrar antes">↑ SUBIR</button><button class="btn outline" type="button" ${idx===a.length-1?'disabled':''} onclick="kokosMoveOrder('${esc(id)}','${kind}',1)" title="Mostrar después">↓ BAJAR</button></div>`}
+async function kokosMoveOrder(id,kind,dir){
+ if(!isLogged())return alert('Inicia sesión.');
+ const arr=kind==='products'?data.products:data.catalogs,i=arr.findIndex(x=>String(x.id)===String(id)),j=i+dir;
+ if(i<0||j<0||j>=arr.length)return;
+ const before=[...arr];[arr[i],arr[j]]=[arr[j],arr[i]];
+ const ids=arr.map(x=>String(x.id));
+ try{
+  const rows=await sbTable('site_settings'),st=rows[0];if(!st?.id)throw Error('No se encontró la configuración.');
+  const content={...(st.content||{})};content[kind==='products'?'productDisplayOrder':'catalogDisplayOrder']=ids;
+  await sbWrite('site_settings',{content},'PATCH','id=eq.'+encodeURIComponent(st.id));
+  kokosPublicOrder[kind]=ids;render(false);
+ }catch(e){if(kind==='products')data.products=before;else data.catalogs=before;render(false);alert('No se pudo guardar el orden: '+e.message)}
+}
+function kokosSetStockFilter(field,value){if(field==='category')kokosStockCategory=value;if(field==='size')kokosStockSize=value;if(field==='query')kokosStockQuery=value;render(false)}
+const kokosBeforeV23ListAdmin=listAdmin;
+listAdmin=function(){
+ if(adminTab!=='products')return kokosBeforeV23ListAdmin();
+ const categories=[['all','TODOS'],['player','PLAYER'],['retro','RETRO / FAN'],['varios','VARIOS']];
+ const sizes=['all','S','M','L','XL','2XL'];
+ const matches=data.products.filter(p=>(kokosStockCategory==='all'||p.version===kokosStockCategory)&&
+ (kokosStockSize==='all'||(p.version==='varios'?variosRead(p).some(v=>v.label===kokosStockSize&&v.quantity>0):Number(p.stock?.[kokosStockSize])>0))&&
+ p.name.toLowerCase().includes(kokosStockQuery.toLowerCase()));
+ return `<div class="actions">${button('+ AÑADIR PRODUCTO',"editing='new';render(false)")}</div>${editing!==null?editForm():''}
+ <div class="kokos-stock-tools"><h3>ORGANIZAR STOCK</h3><div class="kokos-category-tabs">${categories.map(([k,label])=>`<button type="button" class="${kokosStockCategory===k?'selected':''}" onclick="kokosSetStockFilter('category','${k}')">${label} <small>${k==='all'?data.products.length:data.products.filter(p=>p.version===k).length}</small></button>`).join('')}</div>
+ <div class="kokos-stock-filter"><label>Buscar producto<input id="kokosSearchStock" placeholder="Nombre del producto..." value="${esc(kokosStockQuery)}" oninput="kokosStockQuery=this.value;kokosFilterCards()"></label><label>Talla disponible<select onchange="kokosSetStockFilter('size',this.value)">${sizes.map(v=>`<option value="${v}" ${kokosStockSize===v?'selected':''}>${v==='all'?'Todas las tallas':v}</option>`).join('')}</select></label></div><p class="small">${matches.length} producto(s). Las flechas ↑ ↓ determinan el orden en el catálogo público; los filtros son privados.</p></div>
+ <div id="kokosStockCards">${matches.map(p=>`<div class="admin-card kokos-stock-card" data-name="${esc(p.name.toLowerCase())}"><h3>${esc(p.name)}</h3><div class="small">${p.version==='player'?'Player':p.version==='retro'?'Retro / Fan':'Varios'} · ${p.version==='varios'?(variosRead(p).length?variosRead(p).map(v=>esc(v.label)+': '+v.quantity).join(' · '):'Sin tallas'):Object.entries(p.stock||{}).map(([s,n])=>esc(s)+': '+Number(n)).join(' · ')} · ${p.visible?'Visible':'Oculto'}</div>${kokosOrderButtons(p.id,'products')}<div class="actions">${button('EDITAR',`editing='${p.id}';render(false)`,'outline')}${button(p.visible?'OCULTAR':'MOSTRAR',`toggleItem('${p.id}')`,'outline')}${button('ELIMINAR',`deleteItem('${p.id}')`,'outline')}</div></div>`).join('')}</div>`;
+};
+function kokosFilterCards(){const q=(document.getElementById('kokosSearchStock')?.value||'').toLowerCase();kokosStockQuery=q;document.querySelectorAll('#kokosStockCards .kokos-stock-card').forEach(el=>el.hidden=!el.dataset.name.includes(q))}
+const kokosBeforeV23Load=loadCloud;
+loadCloud=async function(){await kokosBeforeV23Load();if(!window.kokosCloudReady)return;try{const rows=await sbTable('site_settings'),c=rows[0]?.content||{};kokosPublicOrder={products:Array.isArray(c.productDisplayOrder)?c.productDisplayOrder:[],catalogs:Array.isArray(c.catalogDisplayOrder)?c.catalogDisplayOrder:[]};kokosApplyOrder();render(false)}catch(e){console.warn('No se pudo recuperar el orden público',e)}};
+const kokosBeforeV23Render=render;
+render=function(...args){kokosBeforeV23Render(...args);if((location.hash.slice(1)||'home')==='admin'&&adminTab==='catalogs'&&isLogged()){
+ const cards=[...document.querySelectorAll('.admin-layout .admin-card')].filter(el=>el.querySelector('h3'));
+ cards.forEach(card=>{const name=card.querySelector('h3')?.textContent;const c=data.catalogs.find(x=>x.name===name);if(!c||card.querySelector('.kokos-order-actions'))return;const actions=card.querySelector('.actions');if(actions)actions.insertAdjacentHTML('beforebegin',kokosOrderButtons(c.id,'catalogs'))});
+ }};
+
+// V24 — Rebajas privadas, precios promocionales y campañas para todo el stock.
+let kokosPromos={},kokosSaleAll=false;
+function kokosPromoFor(p){const v=Number(kokosPromos[String(p.id)]);const regular=Number(p.price);return (kokosSaleAll||kokosPromos[String(p.id)+'_enabled']===true)&&Number.isFinite(v)&&v>0&&v<regular?{old:regular,now:v,percent:Math.round((regular-v)/regular*100)}:null}
+function kokosPromoPrice(p){const v=kokosPromoFor(p);return v?`<span class="kokos-sale-prices"><del>$ ${esc(v.old)} USD</del><strong>$ ${esc(v.now)} USD</strong></span>`:`$ ${esc(p.price)} USD`}
+const kokosBeforeV24Tiles=tiles;
+tiles=function(items,kind){if(kind!=='product')return kokosBeforeV24Tiles(items,kind);const html=kokosBeforeV24Tiles(items,kind);const doc=document.createElement('div');doc.innerHTML=html;const cards=doc.querySelectorAll('.product-tile');items.forEach((p,i)=>{const card=cards[i],sale=kokosPromoFor(p);if(!card||!sale)return;const info=card.querySelector('.info');if(info){const small=info.querySelector('small');if(small)small.outerHTML=`<small class="kokos-sale-card-price"><del>$ ${esc(sale.old)} USD</del><b>$ ${esc(sale.now)} USD</b></small>`;else info.insertAdjacentHTML('beforeend',`<small class="kokos-sale-card-price"><del>$ ${esc(sale.old)} USD</del><b>$ ${esc(sale.now)} USD</b></small>`)}card.insertAdjacentHTML('afterbegin',`<span class="kokos-sale-tag">DESCUENTO</span>`)});return doc.innerHTML};
+function kokosPromoAdmin(){return `<div class="kokos-sale-admin"><h3>REBAJAS DE STOCK</h3><p class="small">Configura el precio promocional de cada producto. La campaña general permite mostrar todas las ofertas configuradas a la vez.</p><label class="kokos-sale-switch"><input type="checkbox" ${kokosSaleAll?'checked':''} onchange="kokosToggleAllSale(this.checked)"> ACTIVAR REBAJAS EN TODO EL STOCK</label><p class="small">Los productos sin precio promocional válido conservarán su precio normal. Los precios originales nunca se modifican.</p></div>`}
+function kokosPromoRow(p){const val=kokosPromos[String(p.id)]??'',enabled=kokosPromos[String(p.id)+'_enabled']===true;return `<div class="kokos-promo-row"><label>Precio promocional (USD)<input type="number" min="0.01" step="0.01" id="kokosPromo_${esc(p.id)}" value="${esc(val)}" placeholder="Ej. 35.00"></label><label class="kokos-promo-check"><input type="checkbox" id="kokosPromoOn_${esc(p.id)}" ${enabled?'checked':''}> Oferta individual</label><button type="button" class="btn blue" onclick="kokosSavePromo('${esc(p.id)}')">GUARDAR OFERTA</button></div>`}
+async function kokosPersistPromo(){if(!isLogged())throw Error('Debes iniciar sesión.');const rows=await sbTable('site_settings'),st=rows[0];if(!st?.id)throw Error('No se encontró la configuración.');const content={...(st.content||{}),stockPromotionalPrices:kokosPromos,stockSaleAll:kokosSaleAll};await sbWrite('site_settings',{content},'PATCH','id=eq.'+encodeURIComponent(st.id))}
+async function kokosSavePromo(id){const p=data.products.find(x=>String(x.id)===String(id));if(!p)return;const input=document.getElementById('kokosPromo_'+id),enabled=document.getElementById('kokosPromoOn_'+id)?.checked;const raw=input?.value.trim()||'';if(raw&&(!Number.isFinite(Number(raw))||Number(raw)<=0||Number(raw)>=Number(p.price)))return alert('El precio promocional debe ser mayor que 0 y menor que el precio normal ($ '+p.price+').');const before={...kokosPromos};if(raw)kokosPromos[id]=Number(raw);else delete kokosPromos[id];kokosPromos[id+'_enabled']=!!enabled;try{await kokosPersistPromo();render(false);alert('Oferta guardada correctamente.')}catch(e){kokosPromos=before;alert('No se pudo guardar: '+e.message)}}
+async function kokosToggleAllSale(on){const before=kokosSaleAll;kokosSaleAll=on;try{await kokosPersistPromo();render(false)}catch(e){kokosSaleAll=before;render(false);alert('No se pudo guardar la campaña: '+e.message)}}
+const kokosBeforeV24List=listAdmin;
+listAdmin=function(){const html=kokosBeforeV24List();if(adminTab!=='products'||!isLogged())return html;const host=document.createElement('div');host.innerHTML=html;const tools=host.querySelector('.kokos-stock-tools');if(tools)tools.insertAdjacentHTML('beforebegin',kokosPromoAdmin());host.querySelectorAll('.kokos-stock-card').forEach(card=>{const edit=card.querySelector('button[onclick^="editing="]');const match=edit?.getAttribute('onclick')?.match(/editing='([^']+)'/);const p=data.products.find(x=>String(x.id)===match?.[1]);if(p){const actions=card.querySelector('.actions');actions?.insertAdjacentHTML('beforebegin',kokosPromoRow(p));const title=card.querySelector('h3');if(title&&kokosPromoFor(p))title.insertAdjacentHTML('afterend',`<span class="kokos-admin-offer">OFERTA ACTIVA · ${kokosPromoPrice(p)}</span>`)}});return host.innerHTML};
+const kokosBeforeV24Load=loadCloud;
+loadCloud=async function(){await kokosBeforeV24Load();if(!window.kokosCloudReady)return;try{const rows=await sbTable('site_settings'),content=rows[0]?.content||{};kokosPromos=content.stockPromotionalPrices&&typeof content.stockPromotionalPrices==='object'?content.stockPromotionalPrices:{};kokosSaleAll=content.stockSaleAll===true;render(false)}catch(e){console.warn('No se pudo cargar las rebajas',e)}};
+const kokosBeforeV24Render=render;
+render=function(...args){kokosBeforeV24Render(...args);const route=decodeURIComponent(location.hash.slice(1)||'home');if(route.startsWith('product/')){const p=data.products.find(x=>String(x.id)===route.slice(8)),sale=p&&kokosPromoFor(p);if(sale){const price=document.querySelector('.product .price');if(price)price.innerHTML=`<span class="kokos-detail-offer">DESCUENTO</span>${kokosPromoPrice(p)}`}}};
+
+// V26 — Organizador visual privado de arrastrar, seleccionar varios y guardar al final.
+let kokosOrganizeMode=false,kokosOrganizeCategory='player',kokosOrganizeSelected=new Set(),kokosOrganizeAnchor=null,kokosOrganizeDraft=[],kokosOrganizeDirty=false;
+const kokosOrganizerCategories={products:[['player','PLAYER'],['retro','RETRO / FAN'],['varios','ACCESORIOS / VARIOS']],catalogs:[['all','BAJO PEDIDO']]};
+function kokosOrganizerItems(){const arr=adminTab==='products'?data.products:data.catalogs;return arr.filter(p=>adminTab==='catalogs'||p.version===kokosOrganizeCategory)}
+function kokosOrganizerOpen(){editing=null;kokosOrganizeMode=true;kokosOrganizeCategory=adminTab==='products'?'player':'all';kokosOrganizerReset();render(false)}
+function kokosOrganizerClose(){if(kokosOrganizeDirty&&!confirm('Hay cambios sin guardar. ¿Salir sin guardarlos?'))return;kokosOrganizeMode=false;kokosOrganizeSelected.clear();render(false)}
+function kokosOrganizerReset(){kokosOrganizeDraft=kokosOrganizerItems().map(p=>String(p.id));kokosOrganizeSelected.clear();kokosOrganizeAnchor=null;kokosOrganizeDirty=false}
+function kokosOrganizerCategory(cat){if(kokosOrganizeDirty&&!confirm('Hay cambios sin guardar. ¿Cambiar de categoría y descartarlos?'))return;kokosOrganizeCategory=cat;kokosOrganizerReset();render(false)}
+function kokosOrganizerCard(p,i){const id=String(p.id),on=kokosOrganizeSelected.has(id);return `<div class="kokos-visual-item ${on?'is-selected':''}" draggable="true" data-id="${esc(id)}" onclick="kokosOrganizerSelect(event,'${esc(id)}')" ondragstart="kokosOrganizerDragStart(event,'${esc(id)}')" ondragover="kokosOrganizerDragOver(event)" ondragleave="this.classList.remove('drop-target')" ondrop="kokosOrganizerDrop(event,'${esc(id)}')" ondragend="kokosOrganizerDragEnd()"><div class="kokos-visual-image"><img src="${image(p.images?.[0])}" alt="" draggable="false"><span class="kokos-visual-index">${i+1}</span><span class="kokos-visual-check">${on?'✓':''}</span></div><div class="kokos-visual-caption"><strong title="${esc(p.name)}">${esc(p.name)}</strong><small>${adminTab==='products'?'$ '+esc(p.price)+' USD · '+(p.visible?'Visible':'Oculto'):(p.visible?'Visible':'Oculto')}</small></div></div>`}
+function kokosOrganizerView(){const arr=kokosOrganizerItems(),byId=new Map(arr.map(p=>[String(p.id),p]));const items=kokosOrganizeDraft.map(id=>byId.get(id)).filter(Boolean);return `<div class="kokos-organizer"><div class="kokos-organizer-header"><h2>ORGANIZAR CATÁLOGO</h2><p class="small">Privado · Arrastra las fotos para cambiar el orden. Ctrl + clic selecciona varios; Shift + clic selecciona un rango. Arrastra una selección para moverla junta.</p></div><div class="kokos-organizer-tabs">${kokosOrganizerCategories[adminTab].map(([k,v])=>`<button type="button" class="${kokosOrganizeCategory===k?'selected':''}" onclick="kokosOrganizerCategory('${k}')">${v}</button>`).join('')}</div><div class="kokos-organizer-toolbar"><span>${items.length} elementos · ${kokosOrganizeSelected.size} seleccionados ${kokosOrganizeDirty?'· CAMBIOS SIN GUARDAR':''}</span><div><button class="btn outline" onclick="kokosOrganizerClose()">CANCELAR</button> <button class="btn blue" ${!kokosOrganizeDirty?'disabled':''} onclick="kokosOrganizerSave()">GUARDAR ORDEN</button></div></div><div id="kokosVisualGrid" class="kokos-visual-grid">${items.map((p,i)=>kokosOrganizerCard(p,i)).join('')||'<p>No hay productos en esta categoría.</p>'}</div><p class="small">El nuevo orden se aplicará a la tienda pública solo después de guardar. Las fotos y los productos no se modifican.</p></div>`}
+function kokosOrganizerSelect(ev,id){if(ev.defaultPrevented)return;const i=kokosOrganizeDraft.indexOf(id);if(ev.shiftKey&&kokosOrganizeAnchor!==null){const j=kokosOrganizeDraft.indexOf(kokosOrganizeAnchor);if(!ev.ctrlKey&&!ev.metaKey)kokosOrganizeSelected.clear();for(let n=Math.min(i,j);n<=Math.max(i,j);n++)kokosOrganizeSelected.add(kokosOrganizeDraft[n])}else if(ev.ctrlKey||ev.metaKey){if(kokosOrganizeSelected.has(id))kokosOrganizeSelected.delete(id);else kokosOrganizeSelected.add(id);kokosOrganizeAnchor=id}else{kokosOrganizeSelected.clear();kokosOrganizeSelected.add(id);kokosOrganizeAnchor=id}kokosOrganizerPaint()}
+function kokosOrganizerPaint(){document.querySelectorAll('#kokosVisualGrid .kokos-visual-item').forEach(el=>{const active=kokosOrganizeSelected.has(el.dataset.id);el.classList.toggle('is-selected',active);el.querySelector('.kokos-visual-check').textContent=active?'✓':''});const bar=document.querySelector('.kokos-organizer-toolbar>span');if(bar)bar.textContent=`${kokosOrganizeDraft.length} elementos · ${kokosOrganizeSelected.size} seleccionados ${kokosOrganizeDirty?'· CAMBIOS SIN GUARDAR':''}`;const save=document.querySelector('.kokos-organizer-toolbar button.blue');if(save)save.disabled=!kokosOrganizeDirty}
+let kokosDragging=[];
+function kokosOrganizerDragStart(ev,id){if(!kokosOrganizeSelected.has(id)){kokosOrganizeSelected.clear();kokosOrganizeSelected.add(id);kokosOrganizeAnchor=id;kokosOrganizerPaint()}kokosDragging=kokosOrganizeDraft.filter(x=>kokosOrganizeSelected.has(x));ev.dataTransfer.effectAllowed='move';ev.dataTransfer.setData('text/plain',id)}
+function kokosOrganizerDragOver(ev){ev.preventDefault();ev.dataTransfer.dropEffect='move';document.querySelectorAll('.kokos-visual-item.drop-target').forEach(x=>x.classList.remove('drop-target'));ev.currentTarget.classList.add('drop-target')}
+function kokosOrganizerDragEnd(){document.querySelectorAll('.kokos-visual-item.drop-target').forEach(x=>x.classList.remove('drop-target'));kokosDragging=[]}
+function kokosOrganizerDrop(ev,id){ev.preventDefault();ev.stopPropagation();const moved=kokosDragging.length?kokosDragging:[ev.dataTransfer.getData('text/plain')];if(!moved.length||moved.includes(id)){kokosOrganizerDragEnd();return}const original=kokosOrganizeDraft,remaining=original.filter(x=>!moved.includes(x)),at=remaining.indexOf(id);if(at<0)return;const rect=ev.currentTarget.getBoundingClientRect(),after=ev.clientX>rect.left+rect.width/2;remaining.splice(at+(after?1:0),0,...moved);kokosOrganizeDraft=remaining;kokosOrganizeDirty=true;kokosOrganizerDragEnd();kokosOrganizerRefresh()}
+function kokosOrganizerRefresh(){const byId=new Map(kokosOrganizerItems().map(p=>[String(p.id),p]));const grid=document.getElementById('kokosVisualGrid');if(grid)grid.innerHTML=kokosOrganizeDraft.map((id,i)=>kokosOrganizerCard(byId.get(id),i)).join('');kokosOrganizerPaint()}
+async function kokosOrganizerSave(){if(!isLogged())return alert('Inicia sesión para guardar.');if(!kokosOrganizeDirty)return;const kind=adminTab,all=kind==='products'?data.products:data.catalogs,selected=new Set(kokosOrganizeDraft);let index=0;const reordered=all.map(p=>selected.has(String(p.id))?all.find(x=>String(x.id)===kokosOrganizeDraft[index++]):p);const ids=reordered.map(x=>String(x.id));const saveButton=document.querySelector('.kokos-organizer-toolbar button.blue');if(saveButton){saveButton.disabled=true;saveButton.textContent='GUARDANDO...'}try{const rows=await sbTable('site_settings'),st=rows[0];if(!st?.id)throw Error('No se encontró la configuración.');const content={...(st.content||{})};content[kind==='products'?'productDisplayOrder':'catalogDisplayOrder']=ids;await sbWrite('site_settings',{content},'PATCH','id=eq.'+encodeURIComponent(st.id));kokosPublicOrder[kind]=ids;if(kind==='products')data.products=reordered;else data.catalogs=reordered;kokosOrganizeDirty=false;kokosOrganizerReset();render(false);alert('Orden público guardado correctamente.')}catch(e){if(saveButton){saveButton.disabled=false;saveButton.textContent='GUARDAR ORDEN'}alert('No se pudo guardar el orden: '+e.message)}}
+const kokosBeforeV26List=listAdmin;
+listAdmin=function(){if(!isLogged())return kokosBeforeV26List();if(kokosOrganizeMode)return kokosOrganizerView();const html=kokosBeforeV26List();const box=document.createElement('div');box.innerHTML=html;const intro=document.createElement('div');intro.className='kokos-organizer-entry';intro.innerHTML='<button type="button" class="btn blue" onclick="kokosOrganizerOpen()">▦ ORGANIZAR CATÁLOGO CON FOTOS</button><p class="small">Arrastra productos y guarda el orden cuando termines.</p>';box.insertBefore(intro,box.firstChild);box.querySelectorAll('.kokos-order-actions').forEach(el=>el.remove());return box.innerHTML};
+const kokosBeforeV26Render=render;
+render=function(...args){kokosBeforeV26Render(...args);const route=decodeURIComponent(location.hash.slice(1)||'home');if(route==='order'){const hero=document.querySelector('#app>.hero'),back=hero?.querySelector('.page-back'),content=document.querySelector('#app>.content');if(back&&content){back.remove();content.insertAdjacentHTML('afterbegin','<button class="page-back" onclick="go(\'home\')">← VOLVER</button>')}}};
+// Keep organizer state isolated when navigating between Stock and Bajo pedido.
+const kokosBeforeV26Admin=admin;
+admin=function(){if(kokosOrganizeMode&&kokosOrganizeDraft.length&&kokosOrganizerCategories[adminTab]&&!kokosOrganizerCategories[adminTab].some(x=>x[0]===kokosOrganizeCategory)){kokosOrganizeMode=false;kokosOrganizeDirty=false}return kokosBeforeV26Admin()};
+
+// V27 — Panel visual único para organizar y administrar productos.
+let kokosV27Size='all',kokosV27Query='';
+function kokosV27Filtered(){const arr=kokosOrganizerItems();return arr.filter(p=>{
+ if(adminTab==='products'&&(kokosOrganizeCategory==='player'||kokosOrganizeCategory==='retro')&&kokosV27Size!=='all'&&Number(p.stock?.[kokosV27Size]||0)<=0)return false;
+ return String(p.name||'').toLowerCase().includes(kokosV27Query.toLowerCase());
+})}
+function kokosV27OpenEdit(id){if(kokosOrganizeDirty&&!confirm('Tienes cambios de orden sin guardar. ¿Descartarlos y editar este producto?'))return;
+ kokosOrganizeDirty=false;kokosOrganizerReset();editing=id;render(false);
+ const target=document.getElementById('kokosV27Editor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function kokosV27New(){if(kokosOrganizeDirty&&!confirm('Tienes cambios de orden sin guardar. ¿Descartarlos y añadir uno nuevo?'))return;
+ kokosOrganizeDirty=false;kokosOrganizerReset();editing='new';render(false);
+ document.getElementById('kokosV27Editor')?.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function kokosV27SetSize(s){kokosV27Size=s;kokosV27Repaint()}
+function kokosV27Search(q){kokosV27Query=q;kokosV27Repaint()}
+function kokosV27Repaint(){const grid=document.getElementById('kokosVisualGrid');if(!grid)return;const visible=new Set(kokosV27Filtered().map(p=>String(p.id)));const byId=new Map(kokosOrganizerItems().map(p=>[String(p.id),p]));const list=kokosOrganizeDraft.filter(id=>visible.has(id));grid.innerHTML=list.map(id=>kokosOrganizerCard(byId.get(id),kokosOrganizeDraft.indexOf(id))).join('')||'<p class="small">No hay productos con estos filtros.</p>';const count=document.getElementById('kokosV27Count');if(count)count.textContent=`${list.length} visibles de ${kokosOrganizeDraft.length} · ${kokosOrganizeSelected.size} seleccionados${kokosOrganizeDirty?' · CAMBIOS SIN GUARDAR':''}`;kokosOrganizerPaint()}
+kokosOrganizerCard=function(p,i){if(!p)return '';const id=String(p.id),on=kokosOrganizeSelected.has(id),prod=adminTab==='products';const sizes=prod?(p.version==='varios'?(typeof variosRead==='function'?variosRead(p).filter(x=>Number(x.quantity)>0).map(x=>esc(x.label)+': '+x.quantity).join(' · '):'') :Object.entries(p.stock||{}).filter(([,n])=>Number(n)>0).map(([s,n])=>esc(s)+': '+n).join(' · ')):'';return `<div class="kokos-visual-item ${on?'is-selected':''}" draggable="true" data-id="${esc(id)}" onclick="kokosOrganizerSelect(event,'${esc(id)}')" ondragstart="kokosOrganizerDragStart(event,'${esc(id)}')" ondragover="kokosOrganizerDragOver(event)" ondragleave="this.classList.remove('drop-target')" ondrop="kokosOrganizerDrop(event,'${esc(id)}')" ondragend="kokosOrganizerDragEnd()"><div class="kokos-visual-image"><img src="${image(p.images?.[0])}" alt="${esc(p.name)}" draggable="false"><span class="kokos-visual-index">${i+1}</span><span class="kokos-visual-check">${on?'✓':''}</span></div><div class="kokos-visual-caption"><strong title="${esc(p.name)}">${esc(p.name)}</strong><small>${prod?'$ '+esc(p.price)+' USD · ':''}${p.visible?'Visible':'Oculto'}</small>${sizes?`<small class="kokos-v27-sizes">${sizes}</small>`:''}${prod&&kokosPromoFor(p)?`<small class="kokos-v27-sale">DESCUENTO · ${kokosPromoPrice(p)}</small>`:''}<div class="kokos-v27-actions"><button type="button" class="btn blue" onclick="event.stopPropagation();kokosV27OpenEdit('${esc(id)}')">EDITAR</button><button type="button" class="btn outline" onclick="event.stopPropagation();if(kokosOrganizeDirty){alert('Guarda o cancela primero el nuevo orden.');return;}toggleItem('${esc(id)}')">${p.visible?'OCULTAR':'MOSTRAR'}</button><button type="button" class="btn outline" onclick="event.stopPropagation();if(kokosOrganizeDirty){alert('Guarda o cancela primero el nuevo orden.');return;}deleteItem('${esc(id)}')">ELIMINAR</button></div></div></div>`};
+kokosOrganizerView=function(){const byId=new Map(kokosOrganizerItems().map(p=>[String(p.id),p]));const allowed=new Set(kokosV27Filtered().map(p=>String(p.id)));const items=kokosOrganizeDraft.filter(id=>allowed.has(id)).map(id=>byId.get(id)).filter(Boolean);const sizes=['all','S','M','L','XL','2XL'];const showSizes=adminTab==='products'&&kokosOrganizeCategory!=='varios';return `<div class="kokos-organizer kokos-v27"><div class="kokos-organizer-header"><h2>ADMINISTRAR PRODUCTOS</h2><p class="small">Privado · Edita productos desde su foto. Arrastra para cambiar el orden público. Ctrl + clic selecciona varios; Shift + clic selecciona un rango.</p></div><div class="kokos-organizer-tabs">${kokosOrganizerCategories[adminTab].map(([k,v])=>`<button type="button" class="${kokosOrganizeCategory===k?'selected':''}" onclick="kokosOrganizerCategory('${k}')">${v}</button>`).join('')}</div><div class="kokos-v27-tools"><label>BUSCAR PRODUCTO<input placeholder="Nombre del producto..." value="${esc(kokosV27Query)}" oninput="kokosV27Search(this.value)"></label>${showSizes?`<label>TALLA DISPONIBLE<select onchange="kokosV27SetSize(this.value)">${sizes.map(s=>`<option value="${s}" ${kokosV27Size===s?'selected':''}>${s==='all'?'Todas las tallas':s}</option>`).join('')}</select></label>`:''}<button type="button" class="btn blue" onclick="kokosV27New()">+ AÑADIR ${adminTab==='products'?'PRODUCTO':'CATÁLOGO'}</button></div>${adminTab==='products'?kokosPromoAdmin():''}${editing!==null?`<div id="kokosV27Editor">${editForm()}${adminTab==='products'&&editing!=='new'?(function(){const p=data.products.find(x=>String(x.id)===String(editing));return p?kokosPromoRow(p):''})():''}</div>`:''}<div class="kokos-organizer-toolbar"><span id="kokosV27Count">${items.length} visibles de ${kokosOrganizeDraft.length} · ${kokosOrganizeSelected.size} seleccionados${kokosOrganizeDirty?' · CAMBIOS SIN GUARDAR':''}</span><div><button class="btn outline" onclick="kokosOrganizerClose()">CANCELAR ORDEN</button> <button class="btn blue" ${!kokosOrganizeDirty?'disabled':''} onclick="kokosOrganizerSave()">GUARDAR ORDEN</button></div></div><div id="kokosVisualGrid" class="kokos-visual-grid">${items.map(p=>kokosOrganizerCard(p,kokosOrganizeDraft.indexOf(String(p.id)))).join('')||'<p class="small">No hay productos con estos filtros.</p>'}</div><p class="small">Solo el orden que guardes se reflejará en el catálogo público. Los filtros y controles son privados.</p></div>`};
+const kokosV27OldReset=kokosOrganizerReset;
+kokosOrganizerReset=function(){kokosV27OldReset();kokosV27Size='all'};
+const kokosV27OldCategory=kokosOrganizerCategory;
+kokosOrganizerCategory=function(cat){kokosV27OldCategory(cat);kokosV27Size='all'};
+const kokosV27OldRefresh=kokosOrganizerRefresh;
+kokosOrganizerRefresh=function(){kokosV27Repaint()};
+const kokosV27OldPaint=kokosOrganizerPaint;
+kokosOrganizerPaint=function(){kokosV27OldPaint();const c=document.getElementById('kokosV27Count');if(c){const n=kokosOrganizeDraft.filter(id=>new Set(kokosV27Filtered().map(p=>String(p.id))).has(id)).length;c.textContent=`${n} visibles de ${kokosOrganizeDraft.length} · ${kokosOrganizeSelected.size} seleccionados${kokosOrganizeDirty?' · CAMBIOS SIN GUARDAR':''}`}};
+const kokosV27OldList=listAdmin;
+listAdmin=function(){if(!isLogged())return kokosV27OldList();if(!kokosOrganizerCategories[adminTab])return kokosV27OldList();if(!kokosOrganizeMode){kokosOrganizeMode=true;kokosOrganizeCategory=adminTab==='products'?'player':'all';kokosOrganizerReset()}return kokosOrganizerView()};
+const kokosV27OldAdmin=admin;
+admin=function(){if(kokosOrganizeMode&&kokosOrganizerCategories[adminTab]&&!kokosOrganizerCategories[adminTab].some(x=>x[0]===kokosOrganizeCategory)){kokosOrganizeCategory=adminTab==='products'?'player':'all';kokosOrganizerReset()}return kokosV27OldAdmin()};
+
+
+// V30: inventario por clave única. Nunca borrar y reinsertar tallas existentes.
+// El upsert usa exactamente la restricción product_inventory(product_id,size).
+async function kokosV30SaveInventory(id,rows){
+ if(!rows.length)return;
+ const unique=new Set(rows.map(r=>String(r.size)));
+ if(unique.size!==rows.length)throw Error('Hay tallas repetidas en el formulario.');
+ await sbRequest('/rest/v1/product_inventory?on_conflict=product_id,size',{
+  method:'POST',auth:true,
+  headers:{Prefer:'resolution=merge-duplicates,return=representation'},body:rows
+ });
+ const saved=await sbTable('product_inventory','product_id=eq.'+encodeURIComponent(id));
+ for(const row of rows){
+  const found=saved.find(x=>String(x.size)===String(row.size));
+  if(!found||Number(found.quantity)!==Number(row.quantity))throw Error('Supabase no confirmó el inventario de talla '+row.size+'. Revisa los permisos de product_inventory.');
+ }
+}
+
+// V28 — Guardado verificado del orden: no confirmar cambios que Supabase no almacenó.
+async function kokosOrganizerSave(){
+ if(!isLogged())return alert('Inicia sesión para guardar el orden.');
+ if(!kokosOrganizeDirty)return;
+ const kind=adminTab,field=kind==='products'?'productDisplayOrder':'catalogDisplayOrder';
+ const all=kind==='products'?data.products:data.catalogs;
+ const draft=kokosOrganizeDraft.map(String);
+ const draftSet=new Set(draft);
+ if(draftSet.size!==draft.length||draft.some(id=>!all.some(p=>String(p.id)===id)))return alert('El orden contiene elementos no válidos. Actualiza la página y vuelve a intentarlo.');
+ // Conserva las posiciones de las otras categorías y reordena únicamente la categoría activa.
+ let index=0;
+ const reordered=all.map(p=>draftSet.has(String(p.id))?all.find(x=>String(x.id)===draft[index++]):p);
+ const ids=reordered.map(p=>String(p.id));
+ const button=document.querySelector('.kokos-organizer-toolbar button.blue');
+ if(button){button.disabled=true;button.textContent='GUARDANDO...'}
+ try{
+  const rows=await sbTable('site_settings');
+  const st=rows[0];
+  if(!st?.id)throw Error('No se encontró el registro de configuración de Supabase.');
+  const content={...(st.content||{}),[field]:ids};
+  // return=representation permite detectar actualizaciones rechazadas silenciosamente por RLS.
+  const updated=await sbRequest('/rest/v1/site_settings?id=eq.'+encodeURIComponent(st.id)+'&select=id,content',{
+   method:'PATCH',auth:true,headers:{Prefer:'return=representation'},body:{content}
+  });
+  if(!Array.isArray(updated)||updated.length!==1)throw Error('Supabase no confirmó la actualización. Revisa los permisos de edición de site_settings.');
+  const saved=updated[0]?.content?.[field];
+  if(!Array.isArray(saved)||saved.map(String).join('|')!==ids.join('|'))throw Error('El orden devuelto por Supabase no coincide con el solicitado.');
+  // Lectura nueva para confirmar persistencia antes de mostrar éxito.
+  const verify=await sbTable('site_settings','id=eq.'+encodeURIComponent(st.id));
+  const persisted=verify[0]?.content?.[field];
+  if(!Array.isArray(persisted)||persisted.map(String).join('|')!==ids.join('|'))throw Error('No se pudo verificar el orden guardado.');
+  kokosPublicOrder[kind]=ids;
+  if(kind==='products')data.products=reordered;else data.catalogs=reordered;
+  kokosOrganizeDirty=false;
+  kokosOrganizerReset();
+  render(false);
+  alert('Orden guardado y verificado en Supabase.');
+ }catch(e){
+  if(button){button.disabled=false;button.textContent='GUARDAR ORDEN'}
+  alert('No se pudo guardar el orden: '+e.message);
+ }
+}
+
+// V29 — Sincronización del panel tras eliminar, cancelar sin salir y guardado consistente.
+function kokosV29SyncDraft(){
+ const live=kokosOrganizerItems().map(p=>String(p.id)),valid=new Set(live);
+ const prior=kokosOrganizeDraft.filter(id=>valid.has(String(id))).map(String);
+ const seen=new Set(prior);
+ kokosOrganizeDraft=[...prior,...live.filter(id=>!seen.has(id))];
+ kokosOrganizeSelected=new Set([...kokosOrganizeSelected].filter(id=>valid.has(String(id))));
+ if(kokosOrganizeAnchor&&!valid.has(String(kokosOrganizeAnchor)))kokosOrganizeAnchor=null;
+ return live;
+}
+// El botón CANCELAR ORDEN restaura el orden publicado sin abandonar la administración.
+kokosOrganizerClose=function(){
+ if(kokosOrganizeDirty&&!confirm('¿Descartar los cambios de orden sin guardar?'))return;
+ kokosOrganizerReset();
+ kokosOrganizeDirty=false;
+ render(false);
+};
+const kokosV29OldDelete=deleteItem;
+deleteItem=async function(id){
+ const key=adminTab;
+ await kokosV29OldDelete(id);
+ if(adminTab!==key)return;
+ // Si el borrado fue confirmado, la carga desde Supabase deja fuera los IDs eliminados.
+ kokosV29SyncDraft();
+ if(kokosOrganizeDirty){kokosOrganizeDirty=false;kokosOrganizerReset()}
+ render(false);
+};
+const kokosV29OldLoad=loadCloud;
+loadCloud=async function(){
+ await kokosV29OldLoad();
+ if(kokosOrganizeMode&&kokosOrganizerCategories[adminTab]){
+  const before=kokosOrganizeDraft.length;
+  kokosV29SyncDraft();
+  if(before!==kokosOrganizeDraft.length){kokosOrganizeDirty=false;kokosOrganizerReset()}
+  render(false);
+ }
+};
+const kokosV29OldView=kokosOrganizerView;
+kokosOrganizerView=function(){kokosV29SyncDraft();return kokosV29OldView()};
+async function kokosOrganizerSave(){
+ if(!isLogged())return alert('Inicia sesión para guardar el orden.');
+ if(!kokosOrganizeDirty)return;
+ const kind=adminTab,field=kind==='products'?'productDisplayOrder':'catalogDisplayOrder';
+ const all=kind==='products'?data.products:data.catalogs;
+ const live=kokosV29SyncDraft(),draft=kokosOrganizeDraft.map(String);
+ const liveSet=new Set(live),draftSet=new Set(draft);
+ if(draft.length!==live.length||draftSet.size!==draft.length||draft.some(id=>!liveSet.has(id))){
+  kokosOrganizerReset();render(false);
+  return alert('La lista cambió. Se ha actualizado el organizador; vuelve a ordenar y guardar.');
+ }
+ let cursor=0;
+ const ordered=all.map(p=>liveSet.has(String(p.id))?all.find(x=>String(x.id)===draft[cursor++]):p);
+ const ids=ordered.map(p=>String(p.id));
+ const btn=document.querySelector('.kokos-organizer-toolbar button.blue');
+ if(btn){btn.disabled=true;btn.textContent='GUARDANDO...'}
+ try{
+  const settings=await sbTable('site_settings'),st=settings[0];
+  if(!st?.id)throw Error('No se encontró la configuración de Supabase.');
+  const content={...(st.content||{}),[field]:ids};
+  const updated=await sbRequest('/rest/v1/site_settings?id=eq.'+encodeURIComponent(st.id)+'&select=id,content',{
+   method:'PATCH',auth:true,headers:{Prefer:'return=representation'},body:{content}
+  });
+  if(!Array.isArray(updated)||updated.length!==1)throw Error('Supabase no confirmó el guardado. Comprueba los permisos de site_settings.');
+  const actual=updated[0]?.content?.[field];
+  if(!Array.isArray(actual)||actual.map(String).join('|')!==ids.join('|'))throw Error('Supabase devolvió un orden diferente.');
+  const check=await sbTable('site_settings','id=eq.'+encodeURIComponent(st.id));
+  if(check[0]?.content?.[field]?.map(String).join('|')!==ids.join('|'))throw Error('El orden no persistió en Supabase.');
+  kokosPublicOrder[kind]=ids;
+  if(kind==='products')data.products=ordered;else data.catalogs=ordered;
+  kokosOrganizeDirty=false;kokosOrganizerReset();render(false);
+  alert('Orden guardado correctamente. Los clientes verán esta distribución.');
+ }catch(e){
+  if(btn){btn.disabled=false;btn.textContent='GUARDAR ORDEN'}
+  alert('No se pudo guardar el orden: '+e.message+'\nSi aparece un error 403 o Supabase no confirma la actualización, revisa los permisos UPDATE de site_settings.');
+ }
+}
+
+// V31 — Movimiento fiable: botones de posición + arrastre táctil.
+function kokosV31Move(id,delta){
+ const visible=new Set(kokosV27Filtered().map(p=>String(p.id)));
+ const shown=kokosOrganizeDraft.filter(x=>visible.has(x));
+ const at=shown.indexOf(String(id)),target=at+delta;
+ if(at<0||target<0||target>=shown.length)return;
+ const other=shown[target],a=kokosOrganizeDraft.indexOf(String(id)),b=kokosOrganizeDraft.indexOf(other);
+ [kokosOrganizeDraft[a],kokosOrganizeDraft[b]]=[kokosOrganizeDraft[b],kokosOrganizeDraft[a]];
+ kokosOrganizeDirty=true;kokosOrganizerRefresh();
+}
+const kokosV31Card=kokosOrganizerCard;
+kokosOrganizerCard=function(p,i){
+ let html=kokosV31Card(p,i);
+ const id=String(p.id),visible=kokosOrganizeDraft.filter(x=>new Set(kokosV27Filtered().map(p=>String(p.id))).has(x));
+ const at=visible.indexOf(id);
+ const controls=`<div class="kokos-v31-move"><button type="button" class="btn outline" ${at<=0?'disabled':''} onclick="event.stopPropagation();kokosV31Move('${esc(id)}',-1)" aria-label="Subir producto">↑ SUBIR</button><button type="button" class="btn outline" ${at>=visible.length-1?'disabled':''} onclick="event.stopPropagation();kokosV31Move('${esc(id)}',1)" aria-label="Bajar producto">↓ BAJAR</button></div>`;
+ return html.replace('<div class="kokos-v27-actions">',controls+'<div class="kokos-v27-actions">');
+};
+// En pantallas táctiles, el navegador no inicia dragstart de HTML5.
+let kokosV31Touch=null;
+document.addEventListener('pointerdown',ev=>{
+ if(ev.pointerType==='mouse'||!kokosOrganizeMode)return;
+ const card=ev.target.closest('#kokosVisualGrid .kokos-visual-item');
+ if(!card||ev.target.closest('button,input,select'))return;
+ kokosV31Touch={id:card.dataset.id,x:ev.clientX,y:ev.clientY,moved:false};
+},{passive:true});
+document.addEventListener('pointermove',ev=>{
+ if(!kokosV31Touch)return;
+ if(Math.hypot(ev.clientX-kokosV31Touch.x,ev.clientY-kokosV31Touch.y)>12)kokosV31Touch.moved=true;
+},{passive:true});
+document.addEventListener('pointerup',ev=>{
+ const t=kokosV31Touch;kokosV31Touch=null;
+ if(!t||!t.moved)return;
+ const target=document.elementFromPoint(ev.clientX,ev.clientY)?.closest('#kokosVisualGrid .kokos-visual-item');
+ if(!target||target.dataset.id===t.id)return;
+ const moving=kokosOrganizeDraft.indexOf(t.id),to=kokosOrganizeDraft.indexOf(target.dataset.id);
+ if(moving<0||to<0)return;
+ const next=[...kokosOrganizeDraft];next.splice(moving,1);next.splice(to,0,t.id);
+ kokosOrganizeDraft=next;kokosOrganizeDirty=true;kokosOrganizerRefresh();
+},{passive:true});
+document.addEventListener('pointercancel',()=>{kokosV31Touch=null},{passive:true});
+// Botón guardado siempre se habilita al modificar la lista.
+const kokosV31Paint=kokosOrganizerPaint;
+kokosOrganizerPaint=function(){kokosV31Paint();const b=document.querySelector('.kokos-organizer-toolbar button.blue');if(b)b.disabled=!kokosOrganizeDirty};
+
+// V32: prueba de orden EXCLUSIVAMENTE privado, guardado en este navegador.
+// No escribe productDisplayOrder ni catalogDisplayOrder en Supabase.
+const kokosV32OrderKey='kokosretro_admin_private_order_v32';
+function kokosV32Stored(){try{return JSON.parse(localStorage.getItem(kokosV32OrderKey)||'{}')}catch(_){return {}}}
+function kokosV32OrderIds(){const all=kokosOrganizerItems().map(p=>String(p.id));const stored=kokosV32Stored()[adminTab+':'+kokosOrganizeCategory]||[];const allowed=new Set(all),used=new Set();return [...stored,...all].map(String).filter(id=>allowed.has(id)&&!used.has(id)&&used.add(id))}
+kokosOrganizerReset=function(){kokosOrganizeDraft=kokosV32OrderIds();kokosOrganizeSelected.clear();kokosOrganizeAnchor=null;kokosOrganizeDirty=false;kokosV27Size='all'};
+kokosV29SyncDraft=function(){const live=kokosOrganizerItems().map(p=>String(p.id)),valid=new Set(live);const prior=kokosOrganizeDraft.filter(id=>valid.has(String(id))).map(String);const seen=new Set(prior);kokosOrganizeDraft=[...prior,...live.filter(id=>!seen.has(id))];kokosOrganizeSelected=new Set([...kokosOrganizeSelected].filter(id=>valid.has(String(id))));return live};
+kokosOrganizerSave=async function(){
+ if(!isLogged())return alert('Inicia sesión.');
+ const ids=kokosOrganizeDraft.map(String),live=kokosOrganizerItems().map(p=>String(p.id));
+ if(ids.length!==live.length||new Set(ids).size!==ids.length||ids.some(id=>!live.includes(id)))return alert('La lista cambió. Actualiza el panel e inténtalo de nuevo.');
+ try{const all=kokosV32Stored();all[adminTab+':'+kokosOrganizeCategory]=ids;localStorage.setItem(kokosV32OrderKey,JSON.stringify(all));kokosOrganizeDirty=false;kokosOrganizeSelected.clear();render(false);alert('Orden privado guardado en este navegador. El público no ha cambiado.')}catch(e){alert('No se pudo guardar el orden privado: '+e.message)}
+};
+// Pintar la administración según el orden local sin alterar el catálogo público.
+const kokosV32OldView=kokosOrganizerView;
+kokosOrganizerView=function(){const html=kokosV32OldView();return html.replace('Arrastra para cambiar el orden público.','Arrastra o usa SUBIR/BAJAR para organizar solo tu panel.').replace('Solo el orden que guardes se reflejará en el catálogo público. Los filtros y controles son privados.','PRUEBA PRIVADA: este orden solo se guarda en este navegador. Los clientes seguirán viendo el orden actual.').replace('GUARDAR ORDEN</button>','GUARDAR ORDEN PRIVADO</button>')};
+// Duplicar genera un producto real NUEVO, independiente, conservando fotos y tallas.
+async function kokosV32Duplicate(id){
+ if(!isLogged())return alert('Inicia sesión.');
+ if(kokosOrganizeDirty)return alert('Guarda o cancela primero los cambios de orden.');
+ const prod=adminTab==='products',source=(prod?data.products:data.catalogs).find(p=>String(p.id)===String(id));
+ if(!source)return alert('No se encontró el elemento.');
+ if(!confirm('¿Duplicar «'+source.name+'»? Se creará una copia nueva en Supabase, visible en la tienda.'))return;
+ const newId=crypto.randomUUID(),name=source.name+' (copia)',slug='copia-'+newId.slice(0,12);
+ try{
+  if(prod){
+   await sbWrite('products',{id:newId,name,slug,description:source.description||'',price:Number(source.price)||0,product_type:source.version,cover_image_url:source.images?.[0]||null,published:source.visible!==false});
+   if(source.images?.length)await sbWrite('product_images',source.images.map((url,i)=>({product_id:newId,image_url:url,sort_order:i})));
+   const sizes=['S','M','L','XL','2XL'];
+   const inventory=sizes.map(size=>({product_id:newId,size,quantity:Math.max(0,Number(source.stock?.[size])||0)}));
+   await kokosV30SaveInventory(newId,inventory);
+   if(source.version==='varios'){
+    const rows=await sbTable('site_settings'),st=rows[0];
+    if(st?.id){const content={...(st.content||{})};const vv={...(content.variosVariants||{})};vv[newId]=JSON.parse(JSON.stringify(vv[id]||[]));content.variosVariants=vv;await sbWrite('site_settings',{content},'PATCH','id=eq.'+encodeURIComponent(st.id))}
+   }
+  }else{
+   await sbWrite('order_catalogs',{id:newId,name,slug,description:source.description||'',price:source.price===''?null:source.price,cover_image_url:source.images?.[0]||null,catalog_type:source.type||'external',external_url:source.url||null,published:source.visible!==false});
+   if(source.images?.length>1)await sbWrite('order_catalog_images',source.images.slice(1).map((url,i)=>({catalog_id:newId,image_url:url,sort_order:i})));
+  }
+  await loadCloud();kokosOrganizerReset();render(false);alert('Copia creada. Puedes editarla independientemente del original.');
+ }catch(e){alert('No se pudo completar la duplicación: '+e.message)}
+}
+const kokosV32OldCard=kokosOrganizerCard;
+kokosOrganizerCard=function(p,i){const html=kokosV32OldCard(p,i);const control=`<button type="button" class="btn outline" onclick="event.stopPropagation();kokosV32Duplicate('${esc(String(p.id))}')">DUPLICAR</button>`;return html.replace('<div class="kokos-v27-actions">','<div class="kokos-v27-actions">'+control)};
+
+
+// V34: corrección del cursor de reconstrucción de productos.
+// V33: publica el orden que ya fue validado en el organizador privado.
+// El orden local se conserva como respaldo; la publicación solo se confirma tras leer Supabase.
+kokosOrganizerSave=async function(){
+ if(!isLogged())return alert('Inicia sesión para publicar el orden.');
+ const kind=adminTab,category=kokosOrganizeCategory;
+ const current=kokosOrganizerItems().map(p=>String(p.id));
+ const draft=kokosOrganizeDraft.map(String);
+ const allowed=new Set(current);
+ if(draft.length!==current.length||new Set(draft).size!==draft.length||draft.some(id=>!allowed.has(id))){
+  return alert('Los productos cambiaron desde que abriste el organizador. Actualiza el panel antes de publicar.');
+ }
+ const button=document.querySelector('.kokos-organizer-toolbar button.blue');
+ if(button){button.disabled=true;button.textContent='PUBLICANDO...'}
+ try{
+  // Mantiene las otras categorías en su posición relativa y aplica el nuevo orden a la categoría actual.
+  const all=kind==='products'?data.products:data.catalogs;
+  // Avanzar el cursor UNA vez por posición; nunca dentro del predicado de find().
+  const byId=new Map(all.map(p=>[String(p.id),p]));
+  let index=0;
+  const ordered=all.map(p=>allowed.has(String(p.id))?byId.get(draft[index++]):p);
+  if(ordered.some(p=>!p))throw Error('No se pudo reconstruir la lista de productos.');
+  const ids=ordered.map(p=>String(p.id));
+  const settings=await sbTable('site_settings');
+  const st=settings[0];
+  if(!st?.id)throw Error('No se encontró el registro de configuración.');
+  const field=kind==='products'?'productDisplayOrder':'catalogDisplayOrder';
+  const content={...(st.content||{}),[field]:ids};
+  const response=await sbRequest('/rest/v1/site_settings?id=eq.'+encodeURIComponent(st.id)+'&select=id,content',{
+   method:'PATCH',auth:true,headers:{Prefer:'return=representation'},body:{content}
+  });
+  if(!Array.isArray(response)||response.length!==1)throw Error('Supabase no permitió actualizar site_settings. Es necesario revisar la política UPDATE (RLS).');
+  const verify=await sbTable('site_settings','id=eq.'+encodeURIComponent(st.id));
+  const actual=verify[0]?.content?.[field];
+  if(!Array.isArray(actual)||actual.map(String).join('|')!==ids.join('|'))throw Error('Supabase no conservó el orden publicado.');
+  kokosPublicOrder[kind]=ids;
+  if(kind==='products')data.products=ordered;else data.catalogs=ordered;
+  const local=kokosV32Stored();local[kind+':'+category]=draft;
+  localStorage.setItem(kokosV32OrderKey,JSON.stringify(local));
+  kokosOrganizeDirty=false;kokosOrganizeSelected.clear();render(false);
+  alert('Orden PUBLICADO y verificado en Supabase. Los clientes verán esta distribución.');
+ }catch(e){
+  alert('No se pudo publicar el orden. Tu organización actual permanece en pantalla.\n\n'+e.message);
+ }finally{
+  const b=document.querySelector('.kokos-organizer-toolbar button.blue');
+  if(b){b.textContent='PUBLICAR ORDEN PARA CLIENTES';b.disabled=!kokosOrganizeDirty}
+ }
+};
+const kokosV33OldView=kokosOrganizerView;
+kokosOrganizerView=function(){
+ return kokosV33OldView()
+  .replace('GUARDAR ORDEN PRIVADO</button>','PUBLICAR ORDEN PARA CLIENTES</button>')
+  .replace('PRUEBA PRIVADA: este orden solo se guarda en este navegador. Los clientes seguirán viendo el orden actual.','Al publicar, este orden se guardará en Supabase y será visible para los clientes.');
+};
+// V35: eliminación confirmada, referencias relacionadas y limpieza segura de fotos no compartidas.
+deleteItem=async function(id){
+ if(!isLogged())return alert('Inicia sesión.');
+ if(!confirm('¿Eliminar definitivamente este producto, su inventario y sus fotografías exclusivas? Esta acción no se puede deshacer.'))return;
+ const kind=adminTab,prod=kind==='products',table=prod?'products':'order_catalogs';
+ const p=(prod?data.products:data.catalogs).find(x=>String(x.id)===String(id));
+ if(!p)return alert('No se encontró el producto.');
+ try{
+  const photos=[...(p.images||[])];
+  // Primero borrar el producto. Si hay claves foráneas sin cascada, detenerse sin borrar los archivos.
+  const result=await sbRequest('/rest/v1/'+table+'?id=eq.'+encodeURIComponent(id)+'&select=id',{method:'DELETE',auth:true,headers:{Prefer:'return=representation'}});
+  if(!Array.isArray(result)||result.length!==1)throw Error('Supabase no confirmó la eliminación. Revisa las políticas o relaciones de la base de datos.');
+  const remaining=await sbTable(table,'id=eq.'+encodeURIComponent(id));
+  if(remaining.length)throw Error('El producto todavía existe en Supabase.');
+  // Si la base no tiene ON DELETE CASCADE, eliminar registros huérfanos después de confirmar el producto.
+  await sbRequest('/rest/v1/'+(prod?'product_inventory':'order_catalog_images')+'?'+(prod?'product_id':'catalog_id')+'=eq.'+encodeURIComponent(id),{method:'DELETE',auth:true});
+  if(prod)await sbRequest('/rest/v1/product_images?product_id=eq.'+encodeURIComponent(id),{method:'DELETE',auth:true});
+  try{await kokosV35CleanupStorage(photos)}catch(e){console.warn('Limpieza de archivos pendiente:',e)}
+  editing=null;kokosOrganizeSelected.delete(String(id));
+  kokosOrganizeDraft=kokosOrganizeDraft.filter(x=>String(x)!==String(id));
+  await loadCloud();kokosOrganizerReset();render(false);alert('Producto eliminado. Se conservaron las fotografías compartidas con otros productos.');
+ }catch(e){alert('No se pudo completar la eliminación: '+e.message)}
+};
+</script><style>
+.kokos-stock-tools{border:1px solid #dce4ef;border-radius:10px;padding:16px;margin:15px 0;background:#f8fafc}.kokos-stock-tools h3{margin:0 0 12px}.kokos-category-tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:13px}.kokos-category-tabs button{border:1px solid #cbd5e1;border-radius:7px;padding:10px 12px;background:#fff;font-weight:700;cursor:pointer}.kokos-category-tabs button.selected{background:var(--blue);color:#fff;border-color:var(--blue)}.kokos-category-tabs small{opacity:.75}.kokos-stock-filter{display:grid;grid-template-columns:minmax(0,2fr) minmax(135px,1fr);gap:10px}.kokos-stock-filter label{font-size:13px;font-weight:700}.kokos-stock-filter input,.kokos-stock-filter select{display:block;width:100%;margin-top:5px;padding:11px;border:1px solid #cbd5e1;border-radius:7px;background:white}.kokos-order-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:12px}.kokos-order-actions .btn{padding:9px 12px;font-size:12px}.kokos-order-actions button:disabled{opacity:.35;cursor:not-allowed}.kokos-stock-card[hidden]{display:none!important}@media(max-width:650px){.kokos-stock-filter{grid-template-columns:1fr}.kokos-category-tabs button{flex:1 1 42%}}
+</style><style>
+.kokos-v31-move{display:flex;gap:5px;padding:4px 8px 7px}.kokos-v31-move button{flex:1;font-size:10px;padding:8px 3px}.kokos-v31-move button:disabled{opacity:.3}.kokos-visual-image{touch-action:pan-y}
+</style><style>
+.kokos-sale-admin{border:2px solid var(--yellow);background:#fffbeb;border-radius:10px;padding:16px;margin:14px 0}.kokos-sale-admin h3{margin:0 0 8px}.kokos-sale-switch{display:flex;align-items:center;gap:10px;font-weight:900;margin:14px 0}.kokos-sale-switch input{width:19px;height:19px;accent-color:var(--blue)}.kokos-promo-row{display:flex;flex-wrap:wrap;align-items:end;gap:9px;margin:12px 0;padding:11px;background:#f5f8fc;border-radius:8px}.kokos-promo-row label{font-size:12px;font-weight:700}.kokos-promo-row input[type=number]{display:block;width:145px;max-width:100%;padding:9px;border:1px solid #cbd5e1;border-radius:6px;margin-top:5px}.kokos-promo-check{display:flex;align-items:center;gap:7px;padding-bottom:9px}.kokos-promo-check input{accent-color:var(--blue)}.kokos-promo-row .btn{font-size:11px;padding:11px}.kokos-sale-tag{position:absolute;top:10px;left:10px;z-index:3;background:var(--yellow);color:var(--navy);font:11px Inter,Arial,sans-serif;font-weight:900;letter-spacing:.5px;border-radius:4px;padding:7px 9px;box-shadow:0 2px 6px #0004}.kokos-sale-card-price{display:flex!important;flex-wrap:wrap;gap:5px 9px;align-items:center}.kokos-sale-card-price del{opacity:.75;font-size:12px}.kokos-sale-card-price b{color:var(--yellow);font-size:16px}.kokos-sale-prices{display:flex;flex-direction:column;gap:3px}.kokos-sale-prices del{font:15px Inter,Arial,sans-serif;color:#778295}.kokos-sale-prices strong{font:31px 'Archivo Black',sans-serif;color:var(--blue)}.kokos-detail-offer{display:block;width:max-content;margin-bottom:10px;background:var(--yellow);color:var(--navy);padding:7px 11px;border-radius:4px;font:800 13px Inter,Arial,sans-serif}.kokos-admin-offer{display:inline-block;margin:5px 0;background:#fff3c2;color:var(--navy);padding:6px 9px;border-radius:5px;font-size:12px;font-weight:800}.kokos-admin-offer .kokos-sale-prices{display:inline-flex;flex-direction:row;align-items:center;gap:8px}.kokos-admin-offer .kokos-sale-prices strong{font:800 14px Inter,Arial,sans-serif}@media(max-width:700px){.kokos-sale-prices strong{font-size:26px}.kokos-promo-row{align-items:stretch}.kokos-promo-row .btn{width:100%;justify-content:center}}
+</style><style>
+.kokos-organizer-entry{padding:15px;background:#f3f7fc;border:1px solid #dbe4ef;border-radius:9px;margin-bottom:18px}.kokos-organizer-entry p{margin:8px 0 0}.kokos-organizer-header h2{font:22px 'Archivo Black',sans-serif;margin:0 0 8px}.kokos-organizer-header p{line-height:1.6}.kokos-organizer-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.kokos-organizer-tabs button{border:1px solid #ccd7e6;background:#f6f8fc;padding:11px;border-radius:7px;font-weight:800;cursor:pointer}.kokos-organizer-tabs button.selected{background:var(--blue);border-color:var(--blue);color:#fff}.kokos-organizer-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:15px 0}.kokos-organizer-toolbar .btn{padding:10px 12px;font-size:12px}.kokos-organizer-toolbar .btn:disabled{opacity:.4;cursor:not-allowed}.kokos-visual-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(135px,1fr));gap:12px;margin:15px 0 20px}.kokos-visual-item{border:2px solid #e0e7f1;border-radius:10px;overflow:hidden;background:#fff;cursor:grab;user-select:none;transition:border-color .12s,box-shadow .12s}.kokos-visual-item:active{cursor:grabbing}.kokos-visual-item.is-selected{border-color:var(--blue);box-shadow:0 0 0 2px #0067f52a}.kokos-visual-item.drop-target{outline:3px dashed var(--yellow);outline-offset:2px}.kokos-visual-image{aspect-ratio:4/5;position:relative;background:#eef2f6}.kokos-visual-image img{width:100%;height:100%;object-fit:cover;pointer-events:none}.kokos-visual-index,.kokos-visual-check{position:absolute;top:7px;background:var(--navy);color:#fff;border-radius:5px;padding:5px 8px;font-size:12px;font-weight:800}.kokos-visual-index{left:7px}.kokos-visual-check{right:7px;min-width:25px;min-height:25px;text-align:center}.is-selected .kokos-visual-check{background:var(--yellow);color:var(--navy)}.kokos-visual-caption{padding:9px;display:grid;gap:5px}.kokos-visual-caption strong{font-size:12px;line-height:1.3;min-height:30px;overflow-wrap:anywhere}.kokos-visual-caption small{font-size:11px;color:#66768a}@media(max-width:650px){.kokos-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.kokos-organizer-toolbar{align-items:stretch}.kokos-organizer-toolbar>div{display:flex;gap:6px}}
+</style><style>
+.kokos-v27 .kokos-v27-tools{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin:16px 0}.kokos-v27-tools label{font-size:12px;font-weight:800;flex:1 1 180px}.kokos-v27-tools input,.kokos-v27-tools select{display:block;width:100%;padding:11px;margin-top:6px;border:1px solid #cbd5e1;border-radius:7px;background:#fff}.kokos-v27-tools .btn{min-height:42px}.kokos-v27 .kokos-visual-grid{grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}.kokos-v27 .kokos-visual-item{cursor:grab}.kokos-v27 .kokos-visual-caption{padding:11px;gap:7px}.kokos-v27 .kokos-visual-caption strong{font-size:14px}.kokos-v27 .kokos-v27-sizes{color:#05254a}.kokos-v27 .kokos-v27-sale{background:#fff2bd;padding:6px;border-radius:4px}.kokos-v27-actions{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}.kokos-v27-actions .btn{font-size:10px;padding:9px 8px;flex:1 1 auto}.kokos-v27 #kokosV27Editor{scroll-margin-top:25px;margin:16px 0}.kokos-v27 #kokosV27Editor .admin-card{max-width:100%}@media(max-width:600px){.kokos-v27 .kokos-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.kokos-v27-actions .btn{width:100%}.kokos-v27 .kokos-visual-caption strong{font-size:12px}}
+</style>
+<style>
+#kokos-v36-controls{border:2px solid #d9ac25;background:#fff9e6;border-radius:12px;padding:18px;margin:16px 0;color:#082444}
+#kokos-v36-controls h3{margin:0 0 8px;font-weight:900}
+#kokos-v36-controls p{font-size:13px;line-height:1.5;margin:0 0 12px}
+#kokos-v36-controls .actions{display:flex;flex-wrap:wrap;gap:9px}
+#kokos-v36-controls button{cursor:pointer;padding:11px 14px;border:1px solid #082444;border-radius:7px;font-weight:800;background:#fff;color:#082444}
+#kokos-v36-controls button.publish{background:#082444;color:#fff}
+#kokos-v36-modal{position:fixed;inset:0;z-index:999999;background:#07182bea;display:flex;flex-direction:column;align-items:center;padding:10px}
+#kokos-v36-modal .toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;color:white;padding:5px 10px 12px}
+#kokos-v36-modal iframe{border:0;background:white;height:calc(100vh - 72px);max-width:100%;box-shadow:0 0 0 2px #ccc}
+#kokos-v36-modal button{background:#f2c641;color:#07182b;border:0;border-radius:6px;padding:10px 16px;font-weight:900;cursor:pointer}
+</style>
+<script>
+// V36: se carga tras todas las extensiones de V35.
+(function(){
+ const previousAdmin=admin;
+ admin=function(){
+  const html=previousAdmin();
+  if(!isLogged())return html;
+  return html.replace('<div class="admin-layout">',`<div id="kokos-v36-controls"><h3>EDICIÓN PRIVADA · V36</h3><p>Los cambios guardados en este panel quedarán pendientes. Tus clientes seguirán viendo la última versión publicada. Cuando termines, revisa la vista previa y publica todo junto.</p><div class="actions"><button type="button" onclick="kokosV36Preview('desktop')">👁 PREVISUALIZAR ORDENADOR</button><button type="button" onclick="kokosV36Preview('mobile')">📱 PREVISUALIZAR CELULAR</button><button type="button" class="publish" onclick="kokosV36Publish()">PUBLICAR TODOS LOS CAMBIOS</button></div></div><div class="admin-layout">`);
+ };
+ // V36: todos los accesos REST de administración apuntan a tablas privadas.
+ // El público anónimo sigue consultando las tablas publicadas.
+ const kokosV36BaseRequest=sbRequest;
+ const kokosV36DraftTables=new Set(['products','product_inventory','product_images','order_catalogs','order_catalog_images','site_settings','collaborations']);
+ sbRequest=async function(path,options={}){
+  const match=path.match(/^\/rest\/v1\/([a-z_]+)(?=[?]|$)/);
+  if(match && kokosV36DraftTables.has(match[1]) && options.auth===true && isLogged()){
+   path=path.replace('/rest/v1/'+match[1],'/rest/v1/kokos_draft_'+match[1]);
+  }
+  return kokosV36BaseRequest(path,options);
+ };
+ // Solo para la vista previa: renderizar como cliente, pero con datos del borrador.
+ // La sesión del administrador se comparte en el iframe del mismo origen.
+ const kokosV36PreviewMode=new URLSearchParams(location.search).get('kokos_preview')==='1';
+ if(kokosV36PreviewMode){
+  const originalLoad=loadCloud;
+  loadCloud=async function(){
+   if(!isLogged()){
+    document.getElementById('app').innerHTML='<section class="content"><h2>Vista previa privada</h2><p>Inicia sesión como administrador antes de abrir esta vista.</p></section>';
+    return;
+   }
+   return originalLoad();
+  };
+ }
+ // V35 eliminaba archivos físicos al quitar productos. En V36 deben conservarse
+ // porque todavía pueden estar visibles en el catálogo público anterior.
+ kokosV35CleanupStorage=async function(){return;};
+ window.kokosV36Preview=function(mode){
+  if(!isLogged())return alert('Inicia sesión como administrador.');
+  const existing=document.getElementById('kokos-v36-modal');if(existing)existing.remove();
+  const modal=document.createElement('div');modal.id='kokos-v36-modal';
+  const mobile=mode==='mobile';
+  modal.innerHTML=`<div class="toolbar"><strong>VISTA PREVIA PRIVADA · ${mobile?'CELULAR':'ORDENADOR'}</strong><button type="button" id="kokos-v36-close">CERRAR VISTA PREVIA ✕</button></div><iframe title="Previsualización de Kokos Retro" style="width:${mobile?'390px':'1200px'}" src="${location.pathname}?kokos_preview=1#home"></iframe>`;
+  document.body.appendChild(modal);
+  document.getElementById('kokos-v36-close').onclick=()=>modal.remove();
+ };
+ window.kokosV36Publish=async function(){
+  if(!isLogged())return alert('Inicia sesión como administrador.');
+  if(!confirm('¿Publicar TODOS los cambios guardados? Tu tienda pública se actualizará ahora.'))return;
+  const btn=document.querySelector('#kokos-v36-controls button.publish');
+  if(btn){btn.disabled=true;btn.textContent='PUBLICANDO...';}
+  try{
+   const result=await sbRequest('/rest/v1/rpc/kokos_publish_draft',{method:'POST',auth:true,body:{}});
+   if(!result || result.success!==true)throw Error('Supabase no confirmó la publicación.');
+   alert('¡Publicación completada! Los clientes ya pueden ver la nueva versión.');
+   await loadCloud();
+  }catch(e){alert('No se pudo publicar. Los cambios privados se conservan.\n\n'+e.message);}
+  finally{if(btn){btn.disabled=false;btn.textContent='PUBLICAR TODOS LOS CAMBIOS';}}
+ };
+})();
+</script>
+<style>
+#kokos-photo-organizer{margin:12px 0 18px}#kokos-photo-organizer .kpg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}#kokos-photo-organizer .kpg-card{background:#fff;border:2px solid #d7e2ee;border-radius:10px;overflow:hidden}#kokos-photo-organizer .kpg-card.kpg-dragover{border-color:#1467ee;background:#eff6ff}#kokos-photo-organizer .kpg-picture{position:relative;aspect-ratio:4/5;background:#eef2f6}#kokos-photo-organizer img{width:100%;height:100%;object-fit:contain}#kokos-photo-organizer .kpg-number{position:absolute;top:7px;left:7px;background:#082444;color:white;padding:5px 8px;border-radius:5px;font-weight:800}#kokos-photo-organizer .kpg-actions{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:7px}#kokos-photo-organizer button{font-size:12px;font-weight:800;padding:8px 3px;border:1px solid #c6d3e3;border-radius:5px;background:#f8fafc;color:#082444;cursor:pointer}#kokos-photo-organizer button:disabled{opacity:.35;cursor:not-allowed}#kokos-photo-organizer .kpg-remove{grid-column:span 2;color:#a01818}#kokos-photo-organizer .kpg-help{font-size:13px;color:#52657d;margin:8px 0 12px}#kokos-photo-organizer .kpg-empty{padding:15px;background:#f3f7fc;border-radius:8px;font-size:13px}#edimages{display:none!important}@media(max-width:550px){#kokos-photo-organizer .kpg-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<script>
+// V37: organizador visual en formularios de Stock y Bajo pedido.
+(function(){
+ const oldEditForm=editForm;
+ editForm=function(){
+  const html=oldEditForm();
+  return html.replace('<textarea id="edimages"', '<textarea id="edimages"')
+   .replace('<span class="small">Puedes subir imágenes desde tu dispositivo con el botón SUBIR FOTOS.</span>', '<span class="small">Puedes subir imágenes desde tu dispositivo con el botón SUBIR FOTOS.</span><div id="kokos-photo-organizer"></div>');
+ };
+ const oldRender=render;
+ render=function(...args){
+  const result=oldRender.apply(this,args);
+  if(document.getElementById('edimages'))kokosGalleryRefresh();
+  return result;
+ };
+ const oldUpload=kokosUploadPhotos;
+ kokosUploadPhotos=async function(fileInputId,targetId){
+  await oldUpload(fileInputId,targetId);
+  if(targetId==='edimages')kokosGalleryRefresh();
+ };
+ window.kokosGalleryUrls=function(){return (document.getElementById('edimages')?.value||'').split(/\r?\n/).map(s=>s.trim()).filter(Boolean)};
+ window.kokosGalleryRefresh=function(){
+  const el=document.getElementById('kokos-photo-organizer');if(!el)return;
+  const urls=kokosGalleryUrls();
+  const cards=urls.map((url,i)=>`<div class="kpg-card" draggable="true" data-photo="${i}" ondragstart="event.dataTransfer.setData('text/plain','${i}')" ondragover="event.preventDefault();this.classList.add('kpg-dragover')" ondragleave="this.classList.remove('kpg-dragover')" ondrop="event.preventDefault();this.classList.remove('kpg-dragover');kokosGalleryMove(Number(event.dataTransfer.getData('text/plain')),${i})"><div class="kpg-picture"><img loading="lazy" src="${esc(url)}" alt="Fotografía ${i+1}" onerror="this.alt='Imagen no disponible'"><span class="kpg-number">${i===0?'1 · PORTADA':i+1}</span></div><div class="kpg-actions"><button type="button" onclick="kokosGalleryMove(${i},${i-1})" ${i===0?'disabled':''}>← Antes</button><button type="button" onclick="kokosGalleryMove(${i},${i+1})" ${i===urls.length-1?'disabled':''}>Después →</button><button type="button" class="kpg-remove" onclick="kokosGalleryRemove(${i})">Quitar foto</button></div></div>`).join('');
+  el.innerHTML=`<h3 style="margin:8px 0">ORDEN DE FOTOGRAFÍAS (${urls.length})</h3><p class="kpg-help">Mira cada foto antes de guardar. La foto 1 será la portada. Usa las flechas o arrastra una fotografía para cambiar su posición. Después pulsa GUARDAR.</p>${urls.length?`<div class="kpg-grid">${cards}</div>`:'<div class="kpg-empty">Todavía no hay fotografías. Súbelas para verlas y organizarlas aquí.</div>'}`;
+ };
+ window.kokosGalleryMove=function(from,to){
+  const a=kokosGalleryUrls();if(from<0||to<0||from>=a.length||to>=a.length||from===to)return;
+  a.splice(to,0,a.splice(from,1)[0]);document.getElementById('edimages').value=a.join('\n');kokosGalleryRefresh();
+ };
+ window.kokosGalleryRemove=function(i){
+  const a=kokosGalleryUrls();if(i<0||i>=a.length)return;
+  if(!confirm('¿Quitar esta fotografía del producto? No se borrará del almacenamiento.'))return;
+  a.splice(i,1);document.getElementById('edimages').value=a.join('\n');kokosGalleryRefresh();
+ };
+})();
+</script>
+</body></html>
